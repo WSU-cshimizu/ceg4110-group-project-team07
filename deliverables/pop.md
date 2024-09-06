@@ -8,19 +8,19 @@ Team07's PROJECT NAME will help people connect with others by allowing them to n
 
   1. **Frontend Development (Angular)-Anna Crafton**
 
-     -Developing the UI using Angular is flexible for incorporating the components for uploading the images, videos, location details, Comments and user profile management. Also by integrating the Google Maps API to display locations and offers an interactive experience for navigation. The frontend developer will also handle HTTP communication with the backend and manage application's state and design.
+     - Developing the UI using Angular is flexible for incorporating the components for uploading the images, videos, location details, Comments and user profile management. Also by integrating the Google Maps API to display locations and offers an interactive experience for navigation. The frontend developer will also handle HTTP communication with the backend and manage application's state and design.
 
   2. **Backend Development (Java with Springboot)-Gokulnaath Govindaraj**
 
-     -Building and Maintaining the Restful API using java with Spring Boot. This includes user authentication, Commuinication between client and server, and CRUD operations. Also integrating the Google Maps API. Here the integration refers to the support for frontend by handling data processing, security, and additional logic related to navigation and directions.
+     - Building and Maintaining the Restful API using java with Spring Boot. This includes user authentication, Commuinication between client and server, and CRUD operations. Also integrating the Google Maps API. Here the integration refers to the support for frontend by handling data processing, security, and additional logic related to navigation and directions.
 
   3. **Database Management (MySql)-Jennesa Sparks**    
 
-     -Managing the database using MySql to store user data, comments, images and location information. The developer will design efficient database to support data retrieval and manupulation.
+     - Managing the database using MySql to store user data, comments, images and location information. The developer will design efficient database to support data retrieval and manupulation.
      
   5. **API Integration and Testing (GraphQL Integration)-Prabesh Bhattarai**
 
-     -This developer is responsible on integrating the GraphQL to provide flexible data querying. Aslo performing testing of both RESTful and GraphQL APIs to maintaint the best communication between frontend and backend. 
+     - This developer is responsible on integrating the GraphQL to provide flexible data querying. Aslo performing testing of both RESTful and GraphQL APIs to maintaint the best communication between frontend and backend. 
      
 ## Componets-Architecture
    
@@ -33,7 +33,7 @@ The application will follow a three-tier architecture:
      - Provides the business logic, handling CRUD operations, authentication, and integration with Google Maps API to support the frontend operations and dataprocessing. It serves as the intermediary between the frontend and the database.
     
   3. **Database (MySQL):**  
-     -Database is to store the informations like images videos and notes to be stored and the gps information as well.
+     - Database is to store the informations like images videos and notes to be stored and the gps information as well.
 
 ## Languages / Technology
 
