@@ -18,15 +18,19 @@ Team07's Map Thing will help people connect with others by allowing them to navi
 
      - Managing the database using MySql to store user data, comments, images and location information. The developer will design efficient database to support data retrieval and manupulation.
      
-  5. **API Integration and Testing (GraphQL Integration)-Prabesh Bhattarai**
+  4. **API Integration and Testing (GraphQL Integration)-Prabesh Bhattarai**
 
-     - This developer is responsible on integrating the GraphQL to provide flexible data querying. Aslo performing testing of both RESTful and GraphQL APIs to maintaint the best communication between frontend and backend. 
+     - This developer is responsible on integrating the GraphQL to provide flexible data querying. Aslo performing testing of both RESTful and GraphQL APIs to maintain the best communication between frontend and backend. Also to reduce the bugs our application have to resolve it and make it smooth for the users.
+
+  5. **Deployment (GoDady)**
+
+     - We will be using Godady to host our server. This is a beginner friendly one.
      
 ## Componets-Architecture
    
-The application will follow a three-tier architecture:
+The application will follow a three-tier (Client-Server) architecture:
 
-We predict, based on initial analysis, that we will implement a three-tier architecture. This will include a front-end, back-end, and a database. The front-end client will use RESTful APIs to interact with the back-end server. The back-end server will handle logic and connect to the database to store and manage data. The API will be crucial to maintaining efficient communication between the client, server, and database.
+We predict, based on initial analysis, that we will implement a three-tier architecture. This will include a front-end, back-end, and a database. The front-end client will use RESTful APIs to interact with the back-end server. The back-end server will handle logic and connect to the database to store and manage data. The API will be crucial to maintaining efficient communication between the client, server, and database. GoDady is used for server deployment
 
   1. **Frontend (Angular):**  
       - Handles all user interactions, displaying data fetched from the backend via REST APIs, and providing an interface to manage notes, locations, and user profiles. The integration with Google Maps API allows users to see the direction and handle real time interaction.
@@ -60,6 +64,10 @@ We predict, based on initial analysis, that we will implement a three-tier archi
   5. **Google Maps API**
 
       - **Why?** This is selected for its reliablity, rich feature set and sources of documentation. It is easy to implement and will provide the mapping functionality needed for the project.
+  
+  6. **GoDady**
+
+      - **Why?** This is used for hosting our server so that people with internet access can access the application on internet. This is free to use and not complex like the alternatives.
 
 ## Life Cycle and Methodology
 
