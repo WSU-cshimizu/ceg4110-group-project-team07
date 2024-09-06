@@ -20,4 +20,5 @@ Sprints will be one week to twelve days depending on the complexity of the task 
 Scrum will consist of in-person meetings after class or virtual meetings on Outlook between sprints and as needed for problem-solving. We will also use email and text to keep organized and in touch, to discuss the project, and to plan our next steps. 
 
 ## Signatures
+Anna Crafton
 
