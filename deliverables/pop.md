@@ -66,4 +66,5 @@ Scrum will consist of in-person meetings after class or virtual meetings on Outl
 ## Signatures
 Anna Crafton 
 Gokulnaath Govindaraj
+Jenessa Sparks
 
