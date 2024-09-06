@@ -14,7 +14,7 @@ Team07's Map Thing will help people connect with others by allowing them to navi
 
      - Building and Maintaining the Restful API using java with Spring Boot. This includes user authentication, Commuinication between client and server, and CRUD operations. Also integrating the Google Maps API. Here the integration refers to the support for frontend by handling data processing, security, and additional logic related to navigation and directions.
 
-  3. **Database Management (MySql)-Jennesa Sparks**    
+  3. **Database Management (MySql)-Jenessa Sparks**    
 
      - Managing the database using MySql to store user data, comments, images and location information. The developer will design efficient database to support data retrieval and manupulation.
      
