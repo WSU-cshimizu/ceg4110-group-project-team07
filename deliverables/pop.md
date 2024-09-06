@@ -53,7 +53,7 @@ We predict, based on initial analysis, that we will implement a three-tier archi
   
   5. **Google Maps API**
 
-      -**Why?** This is selected for its reliablity, rich feature set and sources of documentation. This setup is not complicated. 
+      -**Why?** This is selected for its reliablity, rich feature set and sources of documentation. It is easy to implement and will provide the mapping functionality needed for the project.
 
 ## Life Cycle and Methodology
 
