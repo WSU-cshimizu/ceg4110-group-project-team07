@@ -29,20 +29,26 @@ The application will follow a three-tier architecture:
 We predict, based on initial analysis, that we will implement a three-tier architecture. This will include a front-end, back-end, and a database. The front-end client will use RESTful APIs to interact with the back-end server. The back-end server will handle logic and connect to the database to store and manage data. The API will be crucial to maintaining efficient communication between the client, server, and database.
 
   1. **Frontend (Angular):**  
-     - Handles all user interactions, displaying data fetched from the backend via REST APIs, and providing an interface to manage notes, locations, and user profiles. The integration with Google Maps API allows users to see the direction and handle real time interaction.
+      - Handles all user interactions, displaying data fetched from the backend via REST APIs, and providing an interface to manage notes, locations, and user profiles. The integration with Google Maps API allows users to see the direction and handle real time interaction.
     
   2. **Backend (Java with Spring Boot):**  
+
      - Provides the business logic, handling CRUD operations, authentication, and integration with Google Maps API to support the frontend operations and dataprocessing. It serves as the intermediary between the frontend and the database.
     
   3. **Database (MySQL):**  
-     - Database is to store the informations like images videos and notes to be stored and the gps information as well.
+
+      - Database is to store the informations like images videos and notes to be stored and the gps information as well.
 
 ## Languages / Technology
   
   1. **Frontend-Angular**:
+  
      - **Why?** This is a powerful tool with large active community and sources to refer while in development. This makes it the best choice for developing the single page application. Also the developer has some previous experince in this framework.
+  
   2. **Backend-Java with Spring Boot**:  
+
      - **Why?** Java with Spring Boot is Chosen for its flexiblity, scalablity, vast libraries, and community. Developer who is going to work in this step has prior experience.
+  
   3. **Database-MySql**
 
      - **Why?** It is easy for maintaing the database also integration with Java via Spring Data JPA will be easy work compared to other techniques like MyBatis and JDBC which requires loads of manual work.
@@ -53,7 +59,7 @@ We predict, based on initial analysis, that we will implement a three-tier archi
   
   5. **Google Maps API**
 
-      -**Why?** This is selected for its reliablity, rich feature set and sources of documentation. It is easy to implement and will provide the mapping functionality needed for the project.
+      - **Why?** This is selected for its reliablity, rich feature set and sources of documentation. It is easy to implement and will provide the mapping functionality needed for the project.
 
 ## Life Cycle and Methodology
 
