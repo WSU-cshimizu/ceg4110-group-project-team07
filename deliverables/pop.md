@@ -1,4 +1,4 @@
-# TEAm07 - Project Overview Proposal
+# TEAM07 - Project Overview Proposal
 _____________________________________
 
 ## Elevator Pitch
