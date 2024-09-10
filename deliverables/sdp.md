@@ -15,3 +15,5 @@ We anticipate communicating via _x_ outside of meetings. We have commited to res
   * Milestones (i.e., "Checkins")
   * Requirement Specification
   * Design Specification
+
+### Signatures
