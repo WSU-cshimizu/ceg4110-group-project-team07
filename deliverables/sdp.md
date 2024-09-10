@@ -1,6 +1,6 @@
 # Software Development Plan
 
-### Communication Plan
+## Communication Plan
 * Meeting Location(s)
 * Meeting Time(s)
 * Meeting Cadence
@@ -9,7 +9,7 @@
 
 We anticipate communicating via _x_ outside of meetings. We have commited to responding within _y_ timeframe. ETC.
 
-### Timeline
+## Timeline
 ![gantt](../assets/gantt-chart.png)
   * MVSs
   * Milestones (i.e., "Checkins")
