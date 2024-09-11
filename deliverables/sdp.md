@@ -2,18 +2,16 @@
 
 ## Communication Plan
 * Meeting Location(s)
-
-  Library, Fawcet Hall, Virtual
+  * We will hold meetings in the Fawcet Hall Classroon, Library, and Virtually.
+  
 * Meeting Time(s)
-  Immediately after class and as needed
+  * Meetings will be conducted immediately after class and virtually as needed. 
   
 * Meeting Cadence
-  Weekly, Bi-Weekly on Tuesdays and Thursdays
+  * We plan to meet Weekly or Bi-Weekly on Tuesdays and Thursdays.
   
 * Communication mechanism(s) for outside of meetings
-  
-  Email, Instagram
-  We anticipate comunicating via Email and Instagram outside of meetings. We have commited to responding within _y_ timeframe. ETC. 
+  * We anticipate comunicating through Email and Instagram outside of meetings, with a commitment to respond to messages within one day. 
 
 ## Timeline
 ![gantt](../assets/gantt-chart.png)
