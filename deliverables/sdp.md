@@ -18,6 +18,12 @@
   * MVSs
   * Milestones (i.e., "Checkins")
   * Requirement Specification
+       - The system shall enable users to upload their personal photos.
+       - The system must determine the geographical location of uploaded content.
+       - The system shall limit the file formats of uploaded photos to common image formats.
+       - The system shall limit the maximum file size for each photo to 30MB.
+       - The system shall store the geolocation information retrieved for each photo along with the photo in a database.
+       - The system must integrate with a mapping service to display the photo's location on an interactive map.
   * Design Specification
 
 ## Signatures
