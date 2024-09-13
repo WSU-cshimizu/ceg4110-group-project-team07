@@ -1,7 +1,7 @@
 # Software Development Plan
 
 ## Communication Plan
-## Communication Plan
+
 * Meeting Location(s)
   * We will hold meetings in two different places for in-person collaboration:
  	- Fawcett Hall Classroom, 
