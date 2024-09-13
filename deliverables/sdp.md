@@ -34,6 +34,12 @@
        - The system shall store the geolocation information retrieved for each photo along with the photo in a database.
        - The system must integrate with a mapping service to display the photo's location on an interactive map.
   * Design Specification
+       - We are using Angular-based user interface(UI) featuring components for image/video uploads, user profiles, and an integrated Google 
+         Maps API for navigation.
+       - We are using Google Maps API to display the locations of user-submitted pictures on an interactive map.
+       - We are using Java with Spring Boot for user authentication, and communication via RESTful APIs.
+       - We are using MySQL to store user data, images, comments, and geolocation information efficiently.
+         
 
 ## Signatures
 Anna Crafton
