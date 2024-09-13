@@ -30,12 +30,7 @@
        -  10/30/24 Debugging / testing completed
        -  11/8/24  Web application is working/ Presentation prep
   * Requirement Specification
-       - The system shall enable users to upload their personal photos.
-       - The system must determine the geographical location of uploaded content.
-       - The system shall limit the file formats of uploaded photos to common image formats.
-       - The system shall limit the maximum file size for each photo to 30MB.
-       - The system shall store the geolocation information retrieved for each photo along with the photo in a database.
-       - The system must integrate with a mapping service to display the photo's location on an interactive map.
+       - We plan to have this document ready by 9/24. 
   * Design Specification
        - We are using Angular-based user interface(UI) featuring components for image/video uploads, user profiles, and an integrated Google 
          Maps API for navigation.
