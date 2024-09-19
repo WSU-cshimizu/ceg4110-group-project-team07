@@ -1,3 +1,6 @@
+# Overview
+GeoSyncra is a platform for gathering a group of people for creating a community to enjoy the aesthetics of a place in solitude. This platform is to share the insights about a place which might be a famous one or a forgotten one or a invisible one to this fast-paced world. Join us at GeoSyncra, where every shared story adds to the collection of our collective journey, illuminating the beauty that often goes unnoticed.
+
 # User Stories
 
 As a user, I want to upload pictures so I can share information about a location.
@@ -5,9 +8,26 @@ As a user, I want to upload pictures so I can share information about a location
 As a Database developer, I want to be able to send and recive information from the front end.
 
 
+## User Stories - Gokul
 
+## User Story 1
+As a user, I want to share my thoughts about the place so that others can also take a look at this place.
 
+**Developer Perspective**
+As a Backend developer, I want to develop a working rest api endpoint to execute curd operations which is essential when we upload the information from the website and post it in the feed page of the website.
 
+**Tester Perspective** 
+As a Tester, I want to check whether the design requirements is met by automated testing. To make sure the buttons, Text fields work so that the information can be provided when uploading the details.
+
+## User Story 2
+
+As a user, I want to have a navigation option to navigate to the location which is posted on the website. 
+
+**Developer Perspective**
+As a Backend Developer, I want to integrate the Google Maps API to enable location navigation functionality on the website. This involves setting up the API, creating endpoints to serve location data, and make sure that the frontend can interact with the map continuously. By implementing this users will be able to navigate to the specific location.
+
+**Tester Perspective** 
+As a tester, I want to test the API integration is executed in the way which achieves consistent and efficient validation of the location navigation functionality.
 
 
 
