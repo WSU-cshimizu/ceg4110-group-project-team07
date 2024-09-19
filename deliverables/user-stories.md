@@ -1,14 +1,14 @@
 # Overview
 GeoSyncra is a platform for gathering a group of people for creating a community to enjoy the aesthetics of a place in solitude. This platform is to share the insights about a place which might be a famous one or a forgotten one or a invisible one to this fast-paced world. Join us at GeoSyncra, where every shared story adds to the collection of our collective journey, illuminating the beauty that often goes unnoticed.
 
-# User Stories
+# User Stories - 
 
 As a user, I want to upload pictures so I can share information about a location.
 
 As a Database developer, I want to be able to send and recive information from the front end.
 
 
-## User Stories - Gokul
+## User Stories - Gokulnaath (Grad Student)
 
 ## User Story 1
 As a user, I want to share my thoughts about the place so that others can also take a look at this place.
@@ -31,8 +31,8 @@ As a tester, I want to test the API integration is executed in the way which ach
 
 
 
+## User Stories - Prabesh Bhattarai(Grad Student)
 
-Prabesh Bhattarai(Grad Student)
 #User Stories
 - As a user, I would like to upload the picture of difficult to find places wherever I go and can share with my friends so that it will be easier for them to find.
 - As a user, I want to upload the picture of unknown places and know about its name and location.
