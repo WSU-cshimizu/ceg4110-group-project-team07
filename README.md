@@ -6,11 +6,12 @@ _____________________________________
 
 **Anna Crafton**
 
--Junior Undergrad CS Student
+- Junior Undergrad CS Student
 
 **Jennesa Sparks**
 - Senior Undergrad Student
 
 **Gokulnaath Govindaraj**
-
+- International Grad Student
+- Team Role: Backend developer
 **Prabesh Bhattarai**
