@@ -7,6 +7,7 @@ _____________________________________
 **Anna Crafton**
 
 **Jennesa Sparks**
+- Senior Undergrad Student
 
 **Gokulnaath Govindaraj**
 
