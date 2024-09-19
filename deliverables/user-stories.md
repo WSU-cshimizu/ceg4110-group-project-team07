@@ -19,3 +19,9 @@ Prabesh Bhattarai(Grad Student)
 - As a user, I want to upload the picture of location and view direction to the landmark using google map so that I can reach to the destination efficiently.
 - As a user, I want to also post comments to the picture of places that I have uploaded which will give more information about the place.
 - As a user, I want to also create and manage my profile and also can see my uploaded images.
+
+#Developer Stories
+- As an API integrator,  I want to use GraphQL to enable for flexible data querying, so that the frontend only requests the data it requires which improving productivity.
+- A an API tester, I want to make sure that both the RESTful and GraphQL APIs are fully tested to ensure seamless interaction between the frontend and backend.
+
+#
