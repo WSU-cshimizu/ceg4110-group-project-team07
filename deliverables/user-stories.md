@@ -3,3 +3,19 @@
 As a user, I want to upload pictures so I can share information about a location.
 
 As a Database developer, I want to be able to send and recive information from the front end.
+
+
+
+
+
+
+
+
+
+Prabesh Bhattarai(Grad Student)
+#User Stories
+- As a user, I would like to upload the picture of difficult to find places wherever I go and can share with my friends so that it will be easier for them to find.
+- As a user, I want to upload the picture of unknown places and know about its name and location.
+- As a user, I want to upload the picture of location and view direction to the landmark using google map so that I can reach to the destination efficiently.
+- As a user, I want to also post comments to the picture of places that I have uploaded which will give more information about the place.
+- As a user, I want to also create and manage my profile and also can see my uploaded images.
