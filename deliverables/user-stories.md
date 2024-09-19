@@ -11,6 +11,8 @@ As a Database developer, I want to be able to send and recive information from t
 ## User Stories - Gokulnaath (Grad Student)
 
 ## User Story 1
+
+**User Perspective**
 As a user, I want to share my thoughts about the place so that others can also take a look at this place.
 
 **Developer Perspective**
@@ -21,7 +23,8 @@ As a Tester, I want to check whether the design requirements is met by automated
 
 ## User Story 2
 
-As a user, I want to have a navigation option to navigate to the location which is posted on the website. 
+**User Perspective**
+As a user, I want to have a navigation option to navigate to the location which is posted on the website and also a share option to share the location of this particular location. 
 
 **Developer Perspective**
 As a Backend Developer, I want to integrate the Google Maps API to enable location navigation functionality on the website. This involves setting up the API, creating endpoints to serve location data, and make sure that the frontend can interact with the map continuously. By implementing this users will be able to navigate to the specific location.
