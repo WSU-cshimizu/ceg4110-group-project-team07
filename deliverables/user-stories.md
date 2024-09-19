@@ -1,5 +1,5 @@
 # Overview
-GeoSyncra is a platform for gathering a group of people for creating a community to enjoy the aesthetics of a place in solitude. This platform is to share the insights about a place which might be a famous one or a forgotten one or a invisible one to this fast-paced world. Join us at GeoSyncra, where every shared story adds to the collection of our collective journey, illuminating the beauty that often goes unnoticed.
+GeoSyncra is a platform for gathering a group of people for creating a community to enjoy the aesthetics of a place in solitude. This platform is to share the insights about a place which might be a famous one or a forgotten one or a invisible one to this fast-paced world and appreciate the world around us for a moment. Join us at GeoSyncra, where every shared story adds to the collection of our collective journey, illuminating the beauty that often goes unnoticed.
 
 # User Stories - 
 
