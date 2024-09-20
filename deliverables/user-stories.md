@@ -31,6 +31,7 @@ GeoSyncra is a platform for gathering a group of people for creating a community
 
 # Signatures
 Gokulnaath Govindaraj
+
 Jenessa Sparks
 
 
