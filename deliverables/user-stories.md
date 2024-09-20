@@ -27,6 +27,10 @@ GeoSyncra is a platform for gathering a group of people for creating a community
 - As a tester, I want to test the Google Maps integration to ensure that location data is shown appropriately and map functions perform properly.
 - As a tester, I want to conduct API testing (including both RESTful and GraphQL) to verify the accuracy and reliability of data transmission between the frontend and backend.
 - As a tester, I want to run security tests to check that user authentication and data protection are correctly implemented.
+
+
+# Signatures
+Gokulnaath Govindaraj
   
 
 
