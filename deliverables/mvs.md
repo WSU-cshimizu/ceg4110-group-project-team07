@@ -11,3 +11,5 @@ The Minimum Viable Solution for this project is a functional web application tha
 - The application will run on standard laptop or desktop environments.
 - The application requires an internet connection to upload and view photos.
 - Minimal local storage is required to cache user interactions and photo metadata.
+
+## Signatures
