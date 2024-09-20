@@ -5,7 +5,7 @@ GeoSyncra is a platform for gathering a group of people for creating a community
 
 ## User Stories
 
-- As a user, I want to share my thoughts about the place so that others can also take a look at this place.
+- As a user, I want to share my thoughts about the place so that others can also take a look at this place. -Gokulnaath G
 - As a user, I want to have a navigation option to navigate to the location which is posted on the website and also a share option to share the location of this particular location. -Gokulnaath G
 
 - As a user, I would like to upload the picture of difficult to find places wherever I go and can share with my friends so that it will be easier for them to find.
@@ -19,7 +19,7 @@ GeoSyncra is a platform for gathering a group of people for creating a community
 
 ## Developer Stories
 
-- As a Backend developer, I want to develop a working rest api endpoint to execute curd operations which is essential when we upload the information from the website and post it in the feed page of the website.
+- As a Backend developer, I want to develop a working rest api endpoint to execute curd operations which is essential when we upload the information from the website and post it in the feed page of the website. -Gokulnaath G
 - As a Backend Developer, I want to integrate the Google Maps API to enable location navigation functionality on the website. This involves setting up the API, creating endpoints to serve location data, and make sure that the frontend can interact with the map continuously. By implementing this users will be able to navigate to the specific location. -Gokulnaath G
 
 - As an API integrator,  I want to use GraphQL to enable for flexible data querying, so that the frontend only requests the data it requires which improving productivity.
@@ -28,7 +28,7 @@ GeoSyncra is a platform for gathering a group of people for creating a community
 
 ## Tester Stories
 
-- As a Tester, I want to check whether the design requirements is met by automated testing. To make sure the buttons, Text fields work so that the information can be provided when uploading the details.
+- As a Tester, I want to check whether the design requirements is met by automated testing. To make sure the buttons, Text fields work so that the information can be provided when uploading the details. - Gokulnaath G
 - As a tester, I want to test the API integration is executed in the way which achieves consistent and efficient validation of the location navigation functionality. - Gokulnaath G
 
 - As a tester, I want to check the images and video upload functionality so that the user can upload without any errors.
