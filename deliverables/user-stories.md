@@ -25,7 +25,7 @@ GeoSyncra is a platform for gathering a group of people for creating a community
 
 - As an API integrator,  I want to use GraphQL to enable for flexible data querying, so that the frontend only requests the data it requires which improving productivity. -Prabesh
 - A an API tester, I want to make sure that both the RESTful and GraphQL APIs are fully tested to ensure seamless interaction between the frontend and backend. -Prabesh
-- As a developer, I want to create an easy-to-use registration system to make a smooth user experience, by connecting to the backend for efficient data storage and retrevial. -Jenessa
+- As a developer, I want to create an easy-to-use registration system to make a smooth user experience. -Jenessa
 - As a Database developer, I want to be able to send and recive information from the front end. -Anna
 
 ## Tester Stories
