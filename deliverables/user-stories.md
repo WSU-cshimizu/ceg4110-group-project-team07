@@ -52,3 +52,11 @@ As a tester, I want to test the API integration is executed in the way which ach
 - As a tester, I want to test the Google Maps integration to ensure that location data is shown appropriately and map functions perform properly.
 - As a tester, I want to conduct API testing (including both RESTful and GraphQL) to verify the accuracy and reliability of data transmission between the frontend and backend.
 - As a tester, I want to run security tests to check that user authentication and data protection are correctly implemented.
+
+## User Stories - Jenessa Sparks
+**User Perspective**
+
+
+**Developer Perspective**
+
+
