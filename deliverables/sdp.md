@@ -17,7 +17,7 @@
 * Communication mechanism(s) for outside of meetings
   * We anticipate communicating through Email and Instagram outside of meetings, committed to responding to messages within one day. 
 
-** Justification: **
+**Justification:**
   Our team consists of two graduate and two undergraduate members, so the perfect time for our meetings without time conflicts will be after classes, from 12:30 to 1:30. Since we will be at the university until 6:00 PM, we might also reschedule the meeting if everyone is available before then. In case of any scheduling clashes, we will use Microsoft Meet. The meeting link will be sent to team members once the time is finalized.
 
 We chose the library as our meeting area because it is close to our classroom at Fawcett Hall, and it has a group study area where we can discuss without disturbances. For virtual communication, we use Instagram and Microsoft Teams. Everyone has an Instagram account and is active there, and Teams is useful for recording meetings, as we all have Microsoft accounts.
