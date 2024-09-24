@@ -54,6 +54,27 @@ We chose the library as our meeting area because it is close to our classroom at
           - Description: Time period is to improve the ui or update the website(Only if the above peroids are in Sync) 
        -  11/18/24  Web application is working & Presentation
           - Description: Preparation for final presentation.
+        
+* Justification for Timeline:
+
+* Database initialization is first since all other aspects of our project rely on it existing before they can be completed. This phase lasts 12 days to allow time to discuss the necessary contents of the database and an additional week to write/debug the script.
+ 
+Requirement specifications, testing plans, and design specifications are early on in the plan to make sure everyone has a good idea of how components should work. They are staggard over two weeks to allow adjustments to previous documents as the plan develops, and because it will allow time to ensure the whole team can meet and discuss each one. 
+
+Basic front-end and API integration will last 7 days to create a basic user interface/website. An additional 3 days at the end will be dedicated to the API. These 3 days will be staggard with the Backend to allow developers to work together. The backend will have an additional two weeks after these 3 days since it will require a substantial amount of work. 
+
+User Authentication will take place over ten days during the second half of frontend/backend development. The time allotted is long enough to allow meetings since multiple team members will work together closely on this aspect. 
+
+Frontend development will happen at the same time as the backend. Since the basic front end has already been completed, these two weeks are for completing the user interface and ensuring the front end and back end can communicate effectively with each other and the database. 
+
+
+Manual testing and Debugging last a week to make sure individual components work well alone. It is followed by a longer debugging and testing period of two weeks to make sure the components work well together and to user-proof the project. 
+
+Finalizing the MVP will take only a few days since the project should be done by this point, but may need some time for emergency changes.
+
+Updates and improvements are after the final MVP. This phase lasts one week because this stage should only consist of minor adjustments for aesthetic or quality-of-life purposes, so it should not take very long. 
+
+
 
   * MVSs
    	- We plan to have this document ready by 9/27/24
