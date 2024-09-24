@@ -55,9 +55,9 @@ We chose the library as our meeting area because it is close to our classroom at
        -  11/18/24  Web application is working & Presentation
           - Description: Preparation for final presentation.
         
-* Justification for Timeline:
+**Justification for Timeline **
 
-* Database initialization is first since all other aspects of our project rely on it existing before they can be completed. This phase lasts 12 days to allow time to discuss the necessary contents of the database and an additional week to write/debug the script.
+Database initialization is first since all other aspects of our project rely on it existing before they can be completed. This phase lasts 12 days to allow time to discuss the necessary contents of the database and an additional week to write/debug the script.
  
 Requirement specifications, testing plans, and design specifications are early on in the plan to make sure everyone has a good idea of how components should work. They are staggard over two weeks to allow adjustments to previous documents as the plan develops, and because it will allow time to ensure the whole team can meet and discuss each one. 
 
