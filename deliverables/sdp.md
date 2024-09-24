@@ -24,20 +24,17 @@ We chose the library as our meeting area because it is close to our classroom at
   
 ## Timeline
  ![image](https://github.com/user-attachments/assets/206e9ee6-4de3-4e6b-8c3c-f4b3853d5d30)
-
-  * MVSs (9/20/24)
-      - The Minimum Viable Solution for this project is a functional web application that enables users to upload photos and view the location associated with their content. Core features will include the ability to display the location of uploaded images and allow users to interact with posts from other users. Additional functionalities and enhancements will be considered in future development phases.
  
    * Milestones (i.e., "Checkins")
        -  9/27/24 MVSs and Database initialization
           - Description:  Initializing the Database.
        -  9/29/24 Database Completion
           - Description: Complete the creation and setup of a working database.
-       -  9/1/24 Requirement Specification
+       -  10/1/24 Requirement Specification
           - Description: Complete uploading the documents of requirement plan.
-       -  9/4/24 Testing plan
+       -  10/4/24 Testing plan
           - Description: Complete and upload the testing plan and finalize the framework used for testing.
-       -  9/3/24 Design Specification
+       -  10/3/24 Design Specification
           - Description: Complete and upload the design Specifications document.
        -  10/3/24 Frontend initialization & Google Maps API integrated.
           - Description: Intialize the Front end operation by starting with the first component main page and work on the API integration for the GeoSyncra.
@@ -58,10 +55,12 @@ We chose the library as our meeting area because it is close to our classroom at
        -  11/18/24  Web application is working & Presentation
           - Description: Preparation for final presentation.
 
+  * MVSs
+   	- We plan to have this document ready by 9/27/24
   * Requirement Specification
-       - We plan to have this document ready by 9/1/24. 
+       - We plan to have this document ready by 10/1/24. 
   * Design Specification
-       - We plan to have this document ready by 9/3/24.
+       - We plan to have this document ready by 10/3/24.
          
 
 ## Signatures
