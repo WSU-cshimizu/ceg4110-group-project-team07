@@ -1,7 +1,7 @@
 # Guest Lecture Response
 * **Guest Lecturer:** 
 * **Company:** Dayton Freight
-* **Date:** `blank`
+* **Date:** 9/26/2024
 
 ## Pertinent Questions
 * Question 1
