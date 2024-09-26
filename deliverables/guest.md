@@ -1,6 +1,6 @@
 # Guest Lecture Response
-* **Guest Lecturer:** `blank`
-* **Company:** `blank`
+* **Guest Lecturer:** 
+* **Company:** Dayton Freight
 * **Date:** `blank`
 
 ## Pertinent Questions
