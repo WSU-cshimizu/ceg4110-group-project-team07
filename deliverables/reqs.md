@@ -1,12 +1,5 @@
 # Project Requirements
 
-Should not define how it is to be built. Which could lead to an implementation that prevents meeting performance or other requirements. Consider, locking in a specific framework, but also locking in specific requirements related to latency that the framework cannot meet.
-
-## System Requirements
-Here are some of the requirments we wrote a couple weeks ago but i reworded them to fit the format of requirements better:
-- User data, images, likes, comments, and geolocation information shall be stored in a database.
-- The system will integrate with a mapping service to display the photo's location.
-
 ### System Overview
 The GeoSyncra system will consist of three main components:
 - **Frontend (Angular)**: To handle the user interface and interaction.
@@ -90,10 +83,11 @@ The system will utilize both RESTful APIs and GraphQL for data retrieval and API
 
 ### Error Handling and Notifications
    - When actions do not work as intended, such as when uploading photographs or making login attempts, provide clear error messages .
-   - 
 
 
 # Signatures
+Gokulnaath Govindaraj
 
-- Gokulnaath Govindaraj
-- Prabesh Bhattarai
+Prabesh Bhattarai
+
+Jenessa Sparks
