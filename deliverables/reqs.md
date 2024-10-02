@@ -76,6 +76,22 @@ The system will utilize both RESTful APIs and GraphQL for data retrieval and API
   - Regular testing for functionality and performance.
   - Bugs and issues should be identified and resolved before deployment.
 
+### Performance Optimization
+   - Include system performance specifications, such the speed at which images are uploaded, websites must load, and APIs must respond. 
+      Create acceptable latency criteria for specific activities (such user login and map rendering).
+
+### Scalability Requirements:
+   - Explain how the system should grow to handle more users, information, and media submissions. Managing massive volumes of images, user 
+    interactions, and location data are all included in this.
+
+### Accessibility:
+   - Determine the conditions that must be met for the system to be usable by people with disabilities. This could involve following online 
+    accessibility guidelines, keyboard navigation, and screen reader compatibility (WCAG).
+
+### Error Handling and Notifications
+   - When actions do not work as intended, such as when uploading photographs or making login attempts, provide clear error messages .
+   - 
+
 
 # Signatures
 
