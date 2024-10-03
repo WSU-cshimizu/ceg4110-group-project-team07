@@ -23,7 +23,7 @@
 We chose the library as our meeting area because it is close to our classroom at Fawcett Hall, and it has a group study area where we can discuss without disturbances. For virtual communication, we use Instagram and Microsoft Teams. Everyone has an Instagram account and is active there, and Teams is useful for recording meetings, as we all have Microsoft accounts.
   
 ## Timeline
- ![image](https://github.com/user-attachments/assets/206e9ee6-4de3-4e6b-8c3c-f4b3853d5d30)
+ ![image](https://github.com/WSU-cshimizu/ceg4110-group-project-team07/blob/main/assets/geosyncra_2024-10-03_12.08pm.png)
  
    * Milestones (i.e., "Checkins")
        -  9/27/24 MVSs and Database initialization
