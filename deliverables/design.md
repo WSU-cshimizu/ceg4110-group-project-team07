@@ -5,8 +5,11 @@ Template Info, Rubric, & Instructions for this document - just stuff to keep in 
 
 TEMPLATE:
 
-## Requirement `x`
-_Requirement text_
+## Diagram 1
+* instert diagram here *
+### Requirement 'x','y','etc'
+^ list the requirments assosciated with this diagram
+
 * Design Statement
   * Design Statement
 * Design Statement
@@ -32,7 +35,10 @@ RUBRIC:
 
 ---------------------------------------
 
-
+## Diagram 1
+* instert diagram here *
+### Requirement 'x','y','etc'
+^ list the requirments assosciated with this diagram
 
 * Design Statement
   * Design Statement
