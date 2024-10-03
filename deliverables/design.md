@@ -20,9 +20,13 @@ For each top-level requirement, there should be minimally two diagrams that demo
 There are different diagrams that you may use, the first two were covered in class:
 
 Data Flow Diagram (formal or informal)
+
 Swimlane or Sequence Diagram
+
 (Control) Flow Chart
+
 UML Diagram
+
 Use-case Models or Diagrams
 
 RUBRIC: 
