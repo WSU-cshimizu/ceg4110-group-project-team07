@@ -20,4 +20,18 @@ The product will have a form for uploading media (images/videos), and location d
   * Design Statement
 * Design Statement
 
+## Requirement 1.3 Map Integration 
+The product shall display Google Maps embedded in the UI. Users will be able to interact with the map to view and locations, view saved locations, and click on a location to get directions.
+
+* Design Statement
+  * Design Statement
+* Design Statement
+
+## Requirement 1.4 Navigation Sharing
+The product will allow for shareable link generation for naviagtion to specific locations. The interface will have a "Share" button next to each saved location.
+
+* Design Statement
+  * Design Statement
+* Design Statement
+
 # Signatures
