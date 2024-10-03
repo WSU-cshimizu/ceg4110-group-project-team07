@@ -9,6 +9,7 @@ The GeoSyncra system will consist of three main components:
 The system will utilize both RESTful APIs and GraphQL for data retrieval and API communication, and the server will be hosted using GoDaddy.
 
 1. **Functional Requirements**
+
 1.1. **User Authentication**
   - Main Object: An HTML form with fields for:
   - Email + text input
