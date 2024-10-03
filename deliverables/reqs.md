@@ -31,25 +31,25 @@ The system will utilize both RESTful APIs and GraphQL for data retrieval and API
   - Submit button.
   - User-Friendly Feature: Predefined input hints for the latitude/longitude fields.
     
-### User Requirements:
+2. **User Requirements**
   - Users can upload an image or video and input location coordinates.
   - Data is saved in the system and associated with the user's profile.
 
-1.3. Map Integration
+2.1. Map Integration
   - Main Object: Google Maps display embedded in the UI.
   - User-Friendly Feature: Users can interact with the map to view or add locations.
   - User Requirements:
   - Users can see saved locations.
   - They can click on a location to get directions.
 
-1.4. Navigation Sharing
+2.2. Navigation Sharing
   - Main Object: Shareable link generation for navigation to specific locations.
   - User-Friendly Feature: A "Share" button next to each saved location.
 
 ### User Requirements:
   - Users can share links via email or social media.
 
-1.5. Profile Management
+2.3. Profile Management
   - Main Object: A page to update profile information.
   - Fields for name, email, and password.
   - Save button.
@@ -58,13 +58,13 @@ The system will utilize both RESTful APIs and GraphQL for data retrieval and API
   - Users can update their profile information and save changes.
   - Updated data is reflected in the system.
     
-1.6. Comments and Annotations
+2.4. Comments and Annotations
   - Main Object: Text input box for adding comments to locations or media.
   - User Requirements:
   - Users can leave comments on their own or other users’ submissions.
   - Comments are stored and can be viewed later.
 
-1.7. API Testing
+2.5. API Testing
   - Main Object: Testing APIs (REST and GraphQL) for communication between frontend and backend.
 ### User Requirements:
   - Regular testing for functionality and performance.
