@@ -1,10 +1,28 @@
 # Design Specification
 
+---------------------------------------------
+Template Info & Instructions for this document
+
+TEMPLATE:
+
 ## Requirement `x`
 _Requirement text_
 * Design Statement
   * Design Statement
 * Design Statement
+
+INSTRUCTIONS: 
+
+For each top-level requirement, there should be minimally two diagrams that demonstrate implementation details for that requirement.
+There are different diagrams that you may use, the first two were covered in class:
+
+Data Flow Diagram (formal or informal)
+Swimlane or Sequence Diagram
+(Control) Flow Chart
+UML Diagram
+Use-case Models or Diagrams
+
+---------------------------------------
 
 ## Requirement 1.1 User Authentification
 The product will consist of an HTML form with fields for email, text input, password, password input, submit button, and a placeholder in each field to guide users (e.g., "Enter your email").
