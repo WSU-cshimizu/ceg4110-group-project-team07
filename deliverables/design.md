@@ -1,7 +1,7 @@
 # Design Specification
 
 ---------------------------------------------
-Template Info & Instructions for this document
+Template Info, Rubric, & Instructions for this document - just stuff to keep in mind as we fill this document out
 
 TEMPLATE:
 
@@ -21,6 +21,14 @@ Swimlane or Sequence Diagram
 (Control) Flow Chart
 UML Diagram
 Use-case Models or Diagrams
+
+RUBRIC: 
+| Points | Metric                                            |
+| ------ | ------------------------------------------------- |
+| 2      | Does it look nice?                                |
+| 5      | Does it contain the information that's solicited? |
+| 3      | Diagrams are of appropriate level of detail.      |
+| **10** | **Total**                                         |
 
 ---------------------------------------
 
