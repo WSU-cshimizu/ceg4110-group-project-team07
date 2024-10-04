@@ -26,7 +26,7 @@ We chose the library as our meeting area because it is close to our classroom at
  ![image](https://github.com/WSU-cshimizu/ceg4110-group-project-team07/blob/main/assets/geosyncra_2024-10-03_12.08pm.png)
  
    * Milestones (i.e., "Checkins")
-       -  9/27/24 MVSs and Database initialization
+       -  9/27/24 Database initialization
           - Description:  Initializing the Database.
        -  9/29/24 Database Completion
           - Description: Complete the creation and setup of a working database.
@@ -34,10 +34,10 @@ We chose the library as our meeting area because it is close to our classroom at
           - Description: Complete uploading the documents of requirement plan.
        -  10/4/24 Testing plan
           - Description: Complete and upload the testing plan and finalize the framework used for testing.
-       -  10/3/24 Design Specification
-          - Description: Complete and upload the design Specifications document.
        -  10/3/24 Frontend initialization & Google Maps API integrated.
           - Description: Intialize the Front end operation by starting with the first component main page and work on the API integration for the GeoSyncra.
+       - 10/8/24 Design Specification
+          - Description: Complete and upload the design Specifications document.
        -  10/19/24 Backend
           - Description: Based on the frontend of the website start working with the operations for supporting the frontend. Work on the Restservices
        -  10/20/24 User Authentication completed
@@ -81,7 +81,7 @@ Updates and improvements are after the final MVP. This phase lasts one week beca
   * Requirement Specification
        - We plan to have this document ready by 10/1/24. 
   * Design Specification
-       - We plan to have this document ready by 10/3/24.
+       - We plan to have this document ready by 10/8/24.
          
 
 ## Signatures
