@@ -14,3 +14,5 @@ The Minimum Viable Solution for this project is a functional web application tha
 - Minimal local storage is required to cache user interactions and photo metadata.
 
 ## Signatures
+
+Prabesh Bhattarai
