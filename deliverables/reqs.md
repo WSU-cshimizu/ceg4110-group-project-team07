@@ -37,4 +37,15 @@ As a user, I want to upload the picture of difficult-to-find places wherever I g
   - Requirement 3.2.1: Each uploaded image will have a shareable link to its associated page.
   - Requirement 3.2.2: Users should be able to share the link through email and social media.
 
+## User Story 4
+As a user, I want to upload the picture of a location and view directions to the landmark using Google Maps so that I can reach the destination efficiently.
+
+**Requirement 4.1:** The system shall allow users to upload images of a location along with its coordinates.
+  - Requirement 4.1.1: The system should accept both image and coordinate input when uploading a location.
+  - Requirement 4.1.2: The uploaded image should be linked to the Google Maps directions for the location.
+
+**Requirement 4.2:** The system shall provide a directions option that uses Google Maps to show directions from the user’s current location.
+  - Requirement 4.2.1: Directions should open in Google Maps with the coordinates of the location preloaded.
+  - Requirement 4.2.2: The directions option should function across mobile and desktop devices.
+
 # Signatures 
