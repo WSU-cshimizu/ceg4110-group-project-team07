@@ -26,4 +26,15 @@ As a user, I want to have a navigation option to navigate to the location which 
   - Requirement 2.2.1: The link should be copyable and shareable via social media and email.
   - Requirement 2.2.2: The shared link should direct users to the exact location's details page on GeoSyncra.
 
+## User Story 3
+As a user, I want to upload the picture of difficult-to-find places wherever I go and can share with my friends so that it will be easier for them to find.
+
+**Requirement 3.1:** The system shall allow users to upload images along with location details (latitude and longitude).
+  - Requirement 3.1.1: The system should support standard image file types (e.g., JPEG, PNG).
+  - Requirement 3.1.2: Images should be stored in the database and associated with the user’s profile.
+
+**Requirement 3.2:** The system shall allow users to share uploaded images with a unique URL.
+  - Requirement 3.2.1: Each uploaded image will have a shareable link to its associated page.
+  - Requirement 3.2.2: Users should be able to share the link through email and social media.
+
 # Signatures 
