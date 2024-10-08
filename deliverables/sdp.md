@@ -77,11 +77,11 @@ Updates and improvements are after the final MVP. This phase lasts one week beca
 
 
   * MVSs
-   	- We plan to have this document ready by 9/27/24
+   	- We plan to have this document ready by 10/8/24
   * Requirement Specification
-       - We plan to have this document ready by 10/1/24. 
+       - We plan to have this document ready by 10/9/24. 
   * Design Specification
-       - We plan to have this document ready by 10/8/24.
+       - We plan to have this document ready by 10/10/24.
          
 
 ## Signatures
