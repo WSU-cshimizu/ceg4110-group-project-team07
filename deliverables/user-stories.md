@@ -9,7 +9,6 @@ GeoSyncra is a platform for gathering a group of people for creating a community
 - As a user, I want to have a navigation option to navigate to the location which is posted on the website and also a share option to share the location of this particular location. - Gokulnaath G
 
 - As a user, I would like to upload the picture of difficult to find places wherever I go and can share with my friends so that it will be easier for them to find. -Prabesh
-- As a user, I want to upload the picture of unknown places and know about its name and location. -Prabesh
 
 - As a user, I want to upload the picture of location and view direction to the landmark using google map so that I can reach to the destination efficiently. -Prabesh
 - As a user, I want to also post comments to the picture of places that I have uploaded which will give more information about the place. -Prabesh
