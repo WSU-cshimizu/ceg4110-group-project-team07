@@ -107,5 +107,59 @@ As a user, I want to upload pictures so I can share information about a location
   - Requirement 9.2.1: A unique link should be generated for each uploaded image.
   - Requirement 9.2.2: The link should direct others to the image on the platform.
 
+## Developer Story 1
+As a Backend developer, I want to develop a working REST API endpoint to execute CRUD operations which is essential when we upload the information from the website and post it in the feed page of the website.
+
+**Requirement 10.1:** The system shall provide a REST API that supports creating, reading, updating, and deleting (CRUD) data for the feed page.
+  - Requirement 10.1.1: The API should allow users to create new posts with images, text, and locations.
+  - Requirement 10.1.2: The API should return appropriate status codes
+    
+**Requirement 10.2:** The system shall ensure that the API enables updating and deleting of user-specific posts.
+  - Requirement 10.2.1: Users should be able to update their existing posts using the PUT method.
+  - Requirement 10.2.2: Users should be able to delete their posts using the DELETE method, and the system should return a confirmation upon successful deletion.
+
+## Developer Story 2
+As a Backend Developer, I want to integrate the Google Maps API to enable location navigation functionality on the website. This involves setting up the API, creating endpoints to serve location data, and making sure that the frontend can interact with the map continuously. By implementing this, users will be able to navigate to the specific location.
+
+**Requirement 2.1:** The system shall integrate the Google Maps API for displaying locations on the map.
+  - Requirement 2.1.1: The API should serve location data (latitude and longitude) for each post.
+  - Requirement 2.1.2: The API should ensure that the frontend can fetch the data and display it on the map seamlessly.
+
+**Requirement 2.2:** The system shall provide navigation functionality using the Google Maps API.
+  - Requirement 2.2.1: Users should be able to click on a location and open Google Maps with navigation options.
+  - Requirement 2.2.2: The API should generate a navigation link that can be shared with others.
+
+## Developer Story 3
+As an API integrator, I want to use GraphQL to enable flexible data querying, so that the frontend only requests the data it requires, which improves productivity.
+
+**Requirement 3.1:** The system shall support GraphQL for data queries.
+  - Requirement 3.1.1: The GraphQL API should allow users to query specific data fields related to posts, locations, and user profiles.
+  - Requirement 3.1.2: The API should handle filtering and pagination based on user queries.
+
+**Requirement 3.2:** The system shall allow data modification through GraphQL mutations.
+  - Requirement 3.2.1: The API should support mutations for adding, updating, and deleting posts and user data.
+  - Requirement 3.2.2: The GraphQL API should validate and authorize each mutation to ensure secure data operations.
+
+## Developer Story 4
+As a developer, I want to create an easy-to-use registration system to make a smooth user experience.
+
+**Requirement 4.1:** The system shall provide a user-friendly registration form.
+  - Requirement 4.1.1: The registration form should include fields for email, password, and confirm password.
+  - Requirement 4.1.2: The form should validate user input (e.g., password matching, valid email format) before submission.
+
+**Requirement 4.2:** The system shall ensure secure handling of user data during registration.
+  - Requirement 4.2.1: User passwords should be hashed and securely stored in the database.
+  - Requirement 4.2.2: The system should send a confirmation email after successful registration.
+
+## Developer Story 5
+As a Database developer, I want to be able to send and receive information from the front end.
+
+**Requirement 5.1:** The system shall ensure efficient data transmission between the frontend and the database.
+  - Requirement 5.1.1: The database should store user data, posts, images, and locations.
+  - Requirement 5.1.2: The database should retrieve data requested by the frontend via REST or GraphQL APIs.
+
+**Requirement 5.2:** The system shall enable consistent data retrieval and updates.
+  - Requirement 5.2.1: The database should allow users to update their posts and profiles.
+  - Requirement 5.2.2: Changes made to the database should be reflected immediately on the frontend.
 
 # Signatures 
