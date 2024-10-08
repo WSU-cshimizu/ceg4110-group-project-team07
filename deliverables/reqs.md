@@ -162,4 +162,17 @@ As a Database developer, I want to be able to send and receive information from 
   - Requirement 5.2.1: The database should allow users to update their posts and profiles.
   - Requirement 5.2.2: Changes made to the database should be reflected immediately on the frontend.
 
-# Signatures 
+
+## Tester Story 1 
+As a Tester, I want to verify that the design requirements are met through automated testing. This includes checking that the buttons and text fields work properly so that information can be provided when uploading details. Additionally, I want to ensure that API integration functions efficiently for validating the location navigation feature.
+
+**Requirement 11.1:** The system shall provide automated testing coverage for all user input fields, including buttons and text fields.
+  - Requirement 11.1.1: Automated tests should ensure that buttons perform the expected actions (e.g., submission, navigation).
+  - Requirement 11.1.2: Text fields should accept, validate, and store user input correctly.
+
+**Requirement 11.2:** The system shall provide automated tests for the API integration that supports location navigation.
+  -  Requirement 11.2.1: Tests should validate that the API returns correct location data and preloads it into the Google Maps API.
+  -  Requirement 11.2.2: Tests should verify that navigation functionality works across different devices.
+# Signatures
+
+Gokulnaath Govindaraj
