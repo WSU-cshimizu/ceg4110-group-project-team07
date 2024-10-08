@@ -1,7 +1,7 @@
 # Requirements Specification
 
 
-**NOTE: this follows the rubric and details given to us by Cogan under the "deliverables" folder in the github classroom, as well as the provided template. I WILL CONTINUE WORKING ON THIS AND FINISH IT TODAY
+**NOTE: this follows the rubric and details given to us by Cogan under the "deliverables" folder in the github classroom, as well as the provided template.
 
 
 ## User Story 1
