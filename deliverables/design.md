@@ -121,6 +121,7 @@ This diagram represents the feed page of an application that displays various ra
 
 ## Diagram 3 
 ### Use-case Diagram
+**Diagram 3 - Upload page**
 ![image](https://github.com/WSU-cshimizu/ceg4110-group-project-team07/blob/main/assets/design_images/3.jpg)
 **Diagram 3.1 - Popup(Step1)**
 ![image](https://github.com/WSU-cshimizu/ceg4110-group-project-team07/blob/main/assets/design_images/3_1_req.jpg)
@@ -129,10 +130,77 @@ This diagram represents the feed page of an application that displays various ra
 ### Flow chart Diagram
 
 ### Requirement
-**Diagram 3 - Upload page**
 **Design Statement**
 
+**Objective:**
+This multi-step design guides users through the process of uploading an image and providing relevant details. The interface consists of two screens, each focused on a specific part of the process: image selection and details submission.
 
+### Screen 1: Picture Upload (Step 1)
+
+**Key Components**:
+   1. **Title**: "Picture Upload"
+   2. **Image Upload Area**: A central area where users can either select an image from their device or access the camera.
+   3. **Buttons**:
+       - **Device**: Opens file manager or camera to select the image.
+       - **Upload**: Finalizes the image selection and begins the upload process.
+   4. **Popup Window**: A modal window to manage image selection and upload confirmation.
+   5. **User Interaction**:
+       - The user clicks "Device" to browse for an image.
+       - After selecting an image, they click "Upload" to confirm their selection.
+       - Upon successful upload, the interface transitions to the next screen.
+
+### Screen 2: Details Submission (Step 2)
+
+**Key Components**:
+   1. **Image Preview**: A small preview of the uploaded image to remind the user of their selection.
+   2. **Input Fields**:
+     - **Name**: Text input for the item's name.
+     - **Description**: A text area with a 200-word limit for describing the image or item.
+     - **Type**: Drop-down or text input to specify the item type.
+     - **Location**: A clickable button to fetch the current location using geolocation services.
+   3. **Submit Button**: A button to finalize and upload the details along with the image.
+   4. **Back Button**: Returns the user to Screen 1 without discarding the uploaded image.
+   5. **User Interaction**:
+     - The user fills in the required fields (name, description, type) and clicks the "Location" button to fetch their current location.
+     - After providing all necessary details, they click the "Upload" button to submit everything.
+     - Clicking "Back" returns to the image upload screen without losing the image.
+
+### User Flow:
+
+   1. **Opening the Popup**:
+      - Triggered by clicking the "Picture Upload" button on the main page, which opens a modal for image selection.
+   
+   2. **Previewing the Image**:
+      - After selecting an image, a preview is displayed to allow the user to confirm their choice before proceeding.
+   
+   3. **Uploading the Image**:
+      - The "Upload" button initiates the image upload process.
+      - Options for canceling or closing the popup to discard the process are also provided.
+
+### Step 2 Flow:
+
+   1. **Form Submission**:
+      - The user fills in the required details (name, description, type, and location) after uploading the image and presses "Upload" to submit all information.
+      - If the user wants to return to the image upload step, they can click "Back" without losing the image.
+   2. **Form Validation**:
+      - Ensure that all input fields are completed, and validate the word limit in the description field.
+   3. **Location Handling**:
+      - Fetch the current location via geolocation services or allow manual input in case of failure.
+
+### Functionality Considerations:
+   
+   1. **Error Handling**:
+      - **Image Upload**: Detect unsupported file formats and display relevant error messages.
+      - **Network Failures**: Handle network issues with retry options and display error messages for file size limits or other upload errors.  
+   2. **Image Validation**:
+      - Check the image file size and format before allowing the user to proceed.   
+   3. **UX Enhancements**:
+      - Show a progress indicator during the image upload process.
+      - Provide basic image editing options (e.g., crop or rotate) before confirming the upload.
+   4. **Form Validation**:
+      - Ensure all fields (name, type, location) are filled in properly and display warnings for any missing or incorrect data.  
+   5. **Location Services**:
+      - Handle geolocation permissions and provide a fallback for manual location entry in case location services are unavailable.
 
 
 # Signatures
