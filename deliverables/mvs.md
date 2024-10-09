@@ -18,3 +18,5 @@ The Minimum Viable Solution for this project is a functional web application tha
 Prabesh Bhattarai
 
 Gokulnaath Govindaraj
+
+Jenessa Sparks
