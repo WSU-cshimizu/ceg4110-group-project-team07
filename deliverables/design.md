@@ -119,6 +119,22 @@ This diagram represents the feed page of an application that displays various ra
    - Even though the user icon is present, it might not be interactive in this version of the design. Future iterations could allow users to access their profile, settings, or personal data.
 
 
+## Diagram 3 
+### Use-case Diagram
+![image](https://github.com/WSU-cshimizu/ceg4110-group-project-team07/blob/main/assets/design_images/3.jpg)
+**Diagram 3.1 - Popup(Step1)**
+![image](https://github.com/WSU-cshimizu/ceg4110-group-project-team07/blob/main/assets/design_images/3_1_req.jpg)
+**Diagram 3.2 - Form(Step2)**
+![image](https://github.com/WSU-cshimizu/ceg4110-group-project-team07/blob/main/assets/design_images/3_2req.jpg)
+### Flow chart Diagram
+
+### Requirement
+**Diagram 3 - Upload page**
+**Design Statement**
+
+
+
+
 # Signatures
 
 Gokulnaath Govindaraj
