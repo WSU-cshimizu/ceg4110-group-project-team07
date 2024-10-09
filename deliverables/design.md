@@ -4,7 +4,7 @@
 ### Use-case Diagram
 ![image](https://github.com/WSU-cshimizu/ceg4110-group-project-team07/blob/main/assets/design_images/1_login.jpg)
 ### Flow chart diagram
-![image]()
+![image](https://github.com/WSU-cshimizu/ceg4110-group-project-team07/blob/main/assets/design_images/1_flow.jpg)
 ### Requirement
 **Diagram 1 - Login page**
 **Design Statement**
@@ -49,8 +49,8 @@ The objective of this design is to create a simple and user-friendly login/signu
 ## Diagram 2
 ### Use-case Diagram
 ![image](https://github.com/WSU-cshimizu/ceg4110-group-project-team07/blob/main/assets/design_images/2_req.jpg)
-###Flow chart Diagram
-![image]()
+### Flow chart Diagram
+![image](https://github.com/WSU-cshimizu/ceg4110-group-project-team07/blob/main/assets/design_images/2_flow.jpg)
 
 ### Requirement
 **Diagram 2 - Main page**
@@ -128,7 +128,7 @@ This diagram represents the feed page of an application that displays various ra
 **Diagram 3.2 - Form(Step2)**
 ![image](https://github.com/WSU-cshimizu/ceg4110-group-project-team07/blob/main/assets/design_images/3_2req.jpg)
 ### Flow chart Diagram
-
+![image](https://github.com/WSU-cshimizu/ceg4110-group-project-team07/blob/main/assets/design_images/3_flow.jpg)
 ### Requirement
 **Design Statement**
 
@@ -208,7 +208,7 @@ This multi-step design guides users through the process of uploading an image an
 ![image](https://github.com/WSU-cshimizu/ceg4110-group-project-team07/blob/main/assets/design_images/4_req.jpg)
 
 ### Flow chart diagram
-![image]()
+![image](https://github.com/WSU-cshimizu/ceg4110-group-project-team07/blob/main/assets/design_images/4_flow.jpeg)
 
 ## Requirement
 **Design Statement**
