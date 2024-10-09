@@ -110,7 +110,7 @@ This diagram represents the feed page of an application that displays various ra
    - The "Search by Area" function should allow users to filter feed content based on specific locations. This functionality can include an auto-suggest feature to improve usability.
 
 4. **Passive Time Display:**
-   - Although the "Time" element is passive, it can later be enhanced to allow sorting or filtering by time. For now, it's a static display element that may help users contextualize posts.
+   - Although the "Time" element is passive, it shows time.
 
 5. **Responsiveness:**
    - The interface should be designed to work across different screen sizes (mobile, tablet, desktop). The central placement of the navigation elements ensures ease of access on smaller screens.
@@ -202,6 +202,50 @@ This multi-step design guides users through the process of uploading an image an
    5. **Location Services**:
       - Handle geolocation permissions and provide a fallback for manual location entry in case location services are unavailable.
 
+## Diagram 4
+### Use case diagram
+**Diagram - 4 Location details page** 
+![image](https://github.com/WSU-cshimizu/ceg4110-group-project-team07/blob/main/assets/design_images/4_req.jpg)
+
+### Flow chart diagram
+![image]()
+
+## Requirement
+**Design Statement**
+**Objective:**  
+The goal of this design is to provide an interactive user interface that allows users to upload images, comment, like posts, and use Google Maps for navigation to the specified location associated with the post.
+
+
+**Key Components:**
+
+1. **Image Display:**
+   - A large section in the center of the screen is designated for the display of an image, representing a location or event.
+   - This will serve as the focal point for each post, where users can view uploaded pictures.
+
+2. **Description Section:**
+   - Located below the image, the **Description** area allows the user to add text, providing details about the location or context of the picture.
+
+3. **Action Buttons:**
+   - Positioned on the right side of the screen, there are several interactive buttons for different functionalities:
+     - **Navigation**: This button opens **Google Maps** and navigates to the location associated with the displayed image, allowing users to find the real-world location.
+     - **Upload Pic/Vid**: Enables users to upload pictures. Video upload functionality has been crossed out, indicating it may be unavailable in this version.
+     - **Comment**: Allows users to comment on the post, providing feedback or questions.
+
+4. **Like Button:**
+   - A heart-shaped **Like** button is positioned in the top right corner, allowing users to show appreciation for the post by liking it.
+
+**User Flow:**
+1. Users can view the image and its description in the main display.
+2. By selecting the **Navigation** button, users can use **Google Maps** to navigate to the location depicted in the image.
+3. The **Upload Pic/Vid** button allows users to upload new images (video functionality is currently disabled).
+4. Users can interact with the post by clicking the **Comment** button to leave feedback.
+5. The **Like** button enables users to express their appreciation for the post.
+
+
+**Functionality Considerations:**
+- **Google Maps Integration**: The navigation button is integrated with Google Maps, allowing users to get directions to the location displayed in the post.
+- **Media Upload**: The upload functionality supports pictures, with video functionality disabled for now.
+- **Responsive Design**: The interface should be responsive across devices, including desktop and mobile views.
 
 # Signatures
 
