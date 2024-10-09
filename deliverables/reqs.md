@@ -1,9 +1,5 @@
 # Requirements Specification
 
-
-**NOTE: this follows the rubric and details given to us by Cogan under the "deliverables" folder in the github classroom, as well as the provided template.
-
-
 ## User Story 1
 As a user, I want to share my thoughts about the place so that others can also take a look at this place.
 
@@ -121,60 +117,63 @@ As a Backend developer, I want to develop a working REST API endpoint to execute
 ## Developer Story 2
 As a Backend Developer, I want to integrate the Google Maps API to enable location navigation functionality on the website. This involves setting up the API, creating endpoints to serve location data, and making sure that the frontend can interact with the map continuously. By implementing this, users will be able to navigate to the specific location.
 
-**Requirement 2.1:** The system shall integrate the Google Maps API for displaying locations on the map.
-  - Requirement 2.1.1: The API should serve location data (latitude and longitude) for each post.
-  - Requirement 2.1.2: The API should ensure that the frontend can fetch the data and display it on the map seamlessly.
+**Requirement 11.1:** The system shall integrate the Google Maps API for displaying locations on the map.
+  - Requirement 11.1.1: The API should serve location data (latitude and longitude) for each post.
+  - Requirement 11.1.2: The API should ensure that the frontend can fetch the data and display it on the map seamlessly.
 
-**Requirement 2.2:** The system shall provide navigation functionality using the Google Maps API.
-  - Requirement 2.2.1: Users should be able to click on a location and open Google Maps with navigation options.
-  - Requirement 2.2.2: The API should generate a navigation link that can be shared with others.
+**Requirement 12.2:** The system shall provide navigation functionality using the Google Maps API.
+  - Requirement 12.2.1: Users should be able to click on a location and open Google Maps with navigation options.
+  - Requirement 12.2.2: The API should generate a navigation link that can be shared with others.
 
 ## Developer Story 3
 As an API integrator, I want to use GraphQL to enable flexible data querying, so that the frontend only requests the data it requires, which improves productivity.
 
-**Requirement 3.1:** The system shall support GraphQL for data queries.
-  - Requirement 3.1.1: The GraphQL API should allow users to query specific data fields related to posts, locations, and user profiles.
-  - Requirement 3.1.2: The API should handle filtering and pagination based on user queries.
+**Requirement 13.1:** The system shall support GraphQL for data queries.
+  - Requirement 13.1.1: The GraphQL API should allow users to query specific data fields related to posts, locations, and user profiles.
+  - Requirement 13.1.2: The API should handle filtering and pagination based on user queries.
 
-**Requirement 3.2:** The system shall allow data modification through GraphQL mutations.
-  - Requirement 3.2.1: The API should support mutations for adding, updating, and deleting posts and user data.
-  - Requirement 3.2.2: The GraphQL API should validate and authorize each mutation to ensure secure data operations.
+**Requirement 14.2:** The system shall allow data modification through GraphQL mutations.
+  - Requirement 14.2.1: The API should support mutations for adding, updating, and deleting posts and user data.
+  - Requirement 14.2.2: The GraphQL API should validate and authorize each mutation to ensure secure data operations.
 
 ## Developer Story 4
 As a developer, I want to create an easy-to-use registration system to make a smooth user experience.
 
-**Requirement 4.1:** The system shall provide a user-friendly registration form.
-  - Requirement 4.1.1: The registration form should include fields for email, password, and confirm password.
-  - Requirement 4.1.2: The form should validate user input (e.g., password matching, valid email format) before submission.
+**Requirement 15.1:** The system shall provide a user-friendly registration form.
+  - Requirement 15.1.1: The registration form should include fields for email, password, and confirm password.
+  - Requirement 15.1.2: The form should validate user input (e.g., password matching, valid email format) before submission.
 
-**Requirement 4.2:** The system shall ensure secure handling of user data during registration.
-  - Requirement 4.2.1: User passwords should be hashed and securely stored in the database.
-  - Requirement 4.2.2: The system should send a confirmation email after successful registration.
+**Requirement 16.2:** The system shall ensure secure handling of user data during registration.
+  - Requirement 16.2.1: User passwords should be hashed and securely stored in the database.
+  - Requirement 16.2.2: The system should send a confirmation email after successful registration.
 
 ## Developer Story 5
 As a Database developer, I want to be able to send and receive information from the front end.
 
-**Requirement 5.1:** The system shall ensure efficient data transmission between the frontend and the database.
-  - Requirement 5.1.1: The database should store user data, posts, images, and locations.
-  - Requirement 5.1.2: The database should retrieve data requested by the frontend via REST or GraphQL APIs.
+**Requirement 17.1:** The system shall ensure efficient data transmission between the frontend and the database.
+  - Requirement 17.1.1: The database should store user data, posts, images, and locations.
+  - Requirement 17.1.2: The database should retrieve data requested by the frontend via REST or GraphQL APIs.
 
-**Requirement 5.2:** The system shall enable consistent data retrieval and updates.
-  - Requirement 5.2.1: The database should allow users to update their posts and profiles.
-  - Requirement 5.2.2: Changes made to the database should be reflected immediately on the frontend.
+**Requirement 18.2:** The system shall enable consistent data retrieval and updates.
+  - Requirement 18.2.1: The database should allow users to update their posts and profiles.
+  - Requirement 18.2.2: Changes made to the database should be reflected immediately on the frontend.
 
 
 ## Tester Story 1 
 As a Tester, I want to verify that the design requirements are met through automated testing. This includes checking that the buttons and text fields work properly so that information can be provided when uploading details. Additionally, I want to ensure that API integration functions efficiently for validating the location navigation feature.
 
-**Requirement 11.1:** The system shall provide automated testing coverage for all user input fields, including buttons and text fields.
+**Requirement 19.1:** The system shall provide automated testing coverage for all user input fields, including buttons and text fields.
   - Requirement 11.1.1: Automated tests should ensure that buttons perform the expected actions (e.g., submission, navigation).
   - Requirement 11.1.2: Text fields should accept, validate, and store user input correctly.
 
-**Requirement 11.2:** The system shall provide automated tests for the API integration that supports location navigation.
+**Requirement 19.2:** The system shall provide automated tests for the API integration that supports location navigation.
   -  Requirement 11.2.1: Tests should validate that the API returns correct location data and preloads it into the Google Maps API.
   -  Requirement 11.2.2: Tests should verify that navigation functionality works across different devices.
+    
 # Signatures
 
 Gokulnaath Govindaraj
 
 Prabesh Bhattarai
+
+Jenessa Sparks
