@@ -4,7 +4,7 @@
 * **Date:** 10/10/2024
 
 ## Pertinent Questions
-* By following a results driven approach, do certain parts of the design process be overlooked? For instance, as discussed in lecture, if you are pushing out applications in five days, are you bypassing testing or preparation of design documents in favor of prioritizing software development?
+* By following a results driven approach, do certain parts of the design process be overlooked? For instance, as discussed in the lecture, if you are pushing out applications in five days, are you bypassing testing or preparation of design documents in favor of prioritizing software development?
 
 * Question 2
 
