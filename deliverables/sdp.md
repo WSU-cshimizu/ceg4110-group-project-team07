@@ -42,9 +42,9 @@ We chose the library as our meeting area because it is close to our classroom at
           - Description: Based on the frontend of the website start working with the operations for supporting the frontend. Work on the Restservices
        -  10/20/24 User Authentication completed
           - Description: Login page completion before the due date.
-       -  10/18/24 Frontend
+       -  10/25/24 Frontend
           - Description: Front end process completion.
-       -  10/21/24 Code Completion and Manual Testing (Code completion)
+       -  10/27/24 Code Completion and Manual Testing (Code completion)
           - Description: Testing the application manuallly and also compare the code and prepare the code for Automated testing using the testing framework like Selenium (For reference not finalized yet).
        -  10/30/24 Debugging/testing completed
           - Description: Complete integration of all system components and begin comprehensive testing, including bug fixing.
