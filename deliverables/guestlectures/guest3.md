@@ -4,7 +4,7 @@
 * **Date:** 10/24/2024
 
 ## Pertinent Questions
-
+How would you approach declining someone's project proposal within the professional world? More specifically, how do you navigate this issue without causing potential conflict or tension in the workplace?
 
 ## Lessons Learned
 
