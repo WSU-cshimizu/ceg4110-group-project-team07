@@ -5,7 +5,7 @@
     login.html (login page for GeoSyncra website)
     ceg411
     Anna Crafton
-    last updated 10/3/2024
+    last updated 10/24/2024
 -->
 
 <!--
@@ -34,12 +34,13 @@
 <body>
     <section>
 
-        <!--Nav Bar (links to other pages)-->
-        <nav> 
+      <!--Nav Bar (links to other pages)-->
+      <nav> 
 
-            <a href="index.html">Home</a> &nbsp; | &nbsp; <a href="login.html">Login</ahref><a>
+        <a href="index.html">Home</a> &nbsp; | &nbsp; <a href="login.html">Login | &nbsp; <a href="viewpage.html">Viewpage | &nbsp; <a href="upload.html">Upload</ahref></a>
 
-        </nav>
+    </nav>
+
 
         <!--
         
@@ -51,39 +52,41 @@
 
             <!--Fancy looking header that does not exist yet [FLAG!]-->
             <header> 
+                <h3>GeoSyncra</h3>
             </header>
 
             <!--Login form for existing users-->
             <article>
 
-                <h1>Login</h1>
-
                 <form>
 
                     <fieldset>
 
+                        <legend>Login:</legend>
+
                         <!--Get Username-->
                         <label for="userName">Username:</label>
                         <input type="text" id="userName" name="userName" required><br><br>
-
+                        
                         <!--Get Password-->
                         <label for="password">Password:</label>
                         <input type="password" id="password" name="password" required><br><br>
-
+                    
                         <!--Button for submiting login information-->
                         <input type="submit">
-
+                        
                     </fieldset>
 
                 </form>
 
                 <!--Register form for new users-->
 
-                <h1>Register</h1>
 
                 <form>
 
                     <fieldset>
+
+                        <legend>Register:</legend>
 
                         <!--Get Username-->
                         <label for="userName">Username:</label>
