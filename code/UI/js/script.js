@@ -40,7 +40,7 @@
 }
 
    
-/*setDisplay_3()
+  /*setDisplay_3()
   see setDIsplay_2()*/
   function setDisplay_3(){
     var locationName = "Location_Name";
@@ -51,4 +51,22 @@
     document.getElementById("location_Description_3").textContent=locationDescription;
     document.getElementById("location_Image_3").src=locationImage;
 
-}
+  }
+
+  /*setTime()
+    Function to display the time for clock in index.html 
+    FLAG! NEEDS TO LOOP TO UPDATE TIME!*/
+ function setTime(){
+
+    var date = new Date();
+    var timeString = date.toLocaleTimeString()
+
+    document.getElementById("clock").textContent=timeString;
+
+ }
+
+ /*Update the clock every second*/
+ setInterval(setTime, 1000);
+
+
+ 
