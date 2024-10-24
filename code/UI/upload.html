@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+    upload.html (page to submit locations to GeoSyncra website)
+    ceg411
+    Anna Crafton
+    last updated 10/24/2024
+-->
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <script src="js/script.js"></script>
+    <title>Upload</title>
+
+</head>
+
+
+<section id="Main">
+
+     <!--Nav Bar (links to other pages)-->
+     <nav> 
+
+        <a href="index.html">Home</a> &nbsp; | &nbsp; <a href="login.html">Login | &nbsp; <a href="viewpage.html">Viewpage | &nbsp; <a href="upload.html">Upload</ahref></a>
+
+    </nav>
+
+
+    <!--Upload Form-->
+
+    <div id="uploadForm">
+
+        <fieldset>
+
+          <legend>Upload:</legend>
+          
+          <label for="locationName">Location Name:</label>
+            <input type="text" id="locationName" name="locationName" required><br><br>
+
+            <label for="description">Description:</label>
+            <input type="text" id="description" name="description" required><br><br>
+
+            <label for="photo">Photo:</label>
+            <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+
+
+        </fieldset>
+
+    </div>
+
+</section>
