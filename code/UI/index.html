@@ -5,7 +5,7 @@
     index.html (home page for GeoSyncra website)
     ceg411
     Anna Crafton
-    last updated 10/24/2024
+    last updated 10/3/2024
 -->
 
 <!--
@@ -35,7 +35,7 @@
 </head>
 
 
-<body>
+<body onload="setTime()">
     <section> 
 
         <!--Nav Bar (links to other pages)-->
@@ -76,15 +76,22 @@
 
             <!--Clock will go here [FLAG!]-->
             <article>
+                    
+                <span id="clock">The time will go here</span>
+                
                
             </article>
 
-            <!---Search Bar for looking up locations will go here [FLAG!]-->
+            <!---Search Bar for looking up locations-->
+           
             <article>
+
+                <form action="">
+                    <input type="text" placeholder="Search..">
+                </form>
 
             </article>
 
-            
         </main>
 
         <!--Footer with copyright-->
