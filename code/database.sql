@@ -12,7 +12,7 @@ CREATE TABLE users (
 );
 
 CREATE TABLE images (
-    image_id INT PRIMARY KEY AUTO_INCREMENT,
+    image_id INT PRIMARY KEY,
     user_id INT,
     image_url VARCHAR(255) NOT NULl,
     caption TEXT,
