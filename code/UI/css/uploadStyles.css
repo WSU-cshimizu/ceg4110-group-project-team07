@@ -1,0 +1,33 @@
+
+/*uploadStyles.css 
+CSS for layout of Upload Page
+ceg411
+Anna Crafton
+last updated 11/1/2024*/
+
+body {
+
+    background-color:white;
+    height: 100%;
+}
+
+form {
+
+    
+    display: inline-block;
+    width: 80%;
+    background-color: seagreen;
+    padding:3%;
+    box-sizing:border-box;
+    border-radius:15px;
+    line-height:2.8;
+    margin-left:10%;
+    margin-top:5%;
+
+}
+
+input{
+
+font-size:x-large;
+    width:100%;
+}
