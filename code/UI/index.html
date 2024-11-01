@@ -5,60 +5,60 @@
     index.html (home page for GeoSyncra website)
     ceg411
     Anna Crafton
-    last updated 10/3/2024
+    last updated 11/1/2024
 -->
-
-<!--
-
-    ToDo Specifications: (REMOVE THIS COMENT WHEN DONE!)
-    clock (not done)
-    display random location image (not done)
-    upload button (not done)
-    search bar (not done)
-
--->
-
-<!-- NOTES: 
-
-    I am aware this is super ugly and I intend to fix that once everything is functional. 
-
--->
+    
 
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/indexStyles.css">
     <script src="js/script.js"></script>
+    <script src="js/backend.js"></script>
     <title>Home</title>
-
+ 
 </head>
 
-
+ 
 <body onload="setTime()">
     <section> 
 
-        <!--Nav Bar (links to other pages)-->
-        <nav> 
+       <!--Main (Home Page of GeoSyncra Websight)
+        Known Bugs: None Yet-->
 
-            <a href="index.html">Home</a> &nbsp; | &nbsp; <a href="login.html">Login | &nbsp; <a href="viewpage.html">Viewpage | &nbsp; <a href="upload.html">Upload</ahref></a>
+        <!--Fancy looking header goes here, Maybe with random location image for background? [FLAG!]-->
+        <header>
 
-        </nav>
+            <!--Clock-->
+            <div class="clock">
+                <span id="clock">The time will go here</span>  
+            </div>
 
-        <!--
+            <!---->
+            <div class="title">
+                <h3>GeoSyncra</h3>
+            </div>
+            
 
-        Main (Home Page of GeoSyncra Websight)
-        Known Bugs: None Yet
+            <!--Nav Bar (links to other pages)-->
+            <div class="navBar">
+                <nav> 
+    
+                    <a href="index.html">Home</a> &nbsp; | &nbsp; <a href="login.html">Login | &nbsp; <a href="viewpage.html">Viewpage | &nbsp; <a href="upload.html">Upload</ahref></a>
+    
+                </nav>
+            </div>
+    
+        </header>
+    
 
-        -->
+
+        
         <main>
 
-            <!--Fancy looking header goes here, Maybe with random location image for background? [FLAG!]-->
-            <header>
-
-                <h3>GeoSyncra</h3>
-
-            </header>
+            <div class="rowOne">
 
             <!--A very large, fancy Upload Button (THAT IS NOT FANCY YET! FLAG!)-->
             <div class="uploadButton">
@@ -67,30 +67,35 @@
 
             </div>
 
+            <!---Search Bar for looking up locations-->
+            <article class = "center">
+
+                <h4>Search Locations</h4>
+                    <input type="text" id="searchBar" placeholder="Search...">
+                    <button onClick="searchLocation()">Search</button>
+
+            </article>
+
+            </div>
+
+
+
+    
+            <article id="about" class="about">
+
+                <p>Text and such goes here so that we can look like professionals dfgvhbj njafh jbfndkn mdafkmml jknadjnka,sd knamls </p>
+
+            </article>
+
             <!--Random Image here, using a placehoder for now! [FLAG!]-->
-            <article>
+            <div class="photo">
 
                 <img src="photos/dummyPhoto.jpg" alt="dummyPhoto">
 
-            </article>
+            </div>
 
-            <!--Clock will go here [FLAG!]-->
-            <article>
-                    
-                <span id="clock">The time will go here</span>
-                
-               
-            </article>
 
-            <!---Search Bar for looking up locations-->
-           
-            <article>
-
-                <form action="">
-                    <input type="text" placeholder="Search..">
-                </form>
-
-            </article>
+    
 
         </main>
 
