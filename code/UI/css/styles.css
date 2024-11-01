@@ -1,63 +1,90 @@
 /*
     styles.css (for GeoSyncra)
+    General color / font / styling for all pages
     Ceg4100
     Anna Crafton
-    Last Updated 10/3/2024
-
-*/
-
-/* 
-    Current ColorScheme:
-    Links #fb8500 
-    background #8ecae6
-    dark tone #023047
-    middle tone #219ebc
-    bright tone #ffb703
-
-*/
-
-/*
-    Notes: 
-
-    This is NOT DONE! 
+    Last Updated 11/1/2024
 
 */
 
 
-/*Style the Header*/
+/*Body Styling for Header*/
+body {
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+/*Formating and style for header that is on every page*/
 header {
 
+    /*colors & font*/
     background-color: #023047;
     color:#ffffff; 
-    text-align: center;
-    height: 2em;
-    width: 100%;
-    font-size: xx-large;
-    line-height: normal;
     font-family:'Times New Roman', Times, serif; 
-    margin:0%;
+
+    /*formating*/
+    display:table;
+    width:100%;
     
 }
 
-/*fix gap between nav bar and header*/
-header h3 {
+/*Formating and style for header that is on every page*/
+.clock{
 
-    margin-top: 0;
+    display:table-cell;
+    text-align:center;
+
 
 }
+
+/*Formating and style for header that is on every page*/
+.title{
+    
+    display:table-cell;
+    background-color:#023047;
+    width:60%; 
+    font-size:xx-large;
+    font-stretch: expanded;
+    text-align:center;
+
+
+}
+
+/*Formating and style for header that is on every page*/
+.navBar {
+
+    display:table-cell;
+    text-align:center;
+
+
+}
+
 
 /*Style the Background for the Section*/
 section {
 
-
-    background-color: aliceblue;
+    background-color: white;
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    line-height: 150%;
-    width: 80%; 
-    margin: 0;
 
+}
 
+/*Background for login boxes + upload boxes*/
+fieldset {
+
+    background: #8ecae6;
+    width: 33%;
+
+}
+
+/*title at top of fiieldset boxes*/
+legend {
+
+    font-size: large;
+    padding: 1em;
 }
 
 /* Style the nav bar */
@@ -65,10 +92,8 @@ nav {
 
     list-style-type: none;
     background-color: #023047;
-    color:#fb8500;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
+    color: white;
+    font-size:large;
 
 }
 
@@ -82,10 +107,17 @@ a {
 /*Style the main section*/
 main {
 
-    padding: 20px;
-    background-color: #fff;
-    margin: 20px auto;
-    max-width: 85%;
+    background-color: aliceblue;
 
+}
+
+/*Footer*/
+footer {
+
+    background-color:#023047;
+    color:#fff;
+    text-align:center;
+    font-size:small;
+    line-height:2;
 }
 
