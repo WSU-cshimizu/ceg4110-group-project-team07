@@ -20,3 +20,7 @@ Take advantage of training if the company offers it, such as hobby projects and 
   5. ip/tcp
 
 3. Try to have code stored use the old one mostly
+
+# Signatures
+
+1. Gokulnaath Govindaraj
