@@ -13,11 +13,7 @@
 Take advantage of training if the company offers it, such as hobby projects and boot camps. Using a combination of resources can make a more well-rounded skillset.
 
 2. Learn these skiils these are forever:
-  1. sql
-  2. linux
-  3. bash
-  4. http
-  5. ip/tcp
+    SQl, bash, linux.
 
 3. Try to have code stored use the old one mostly
 
