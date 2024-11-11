@@ -24,3 +24,4 @@ Take advantage of training if the company offers it, such as hobby projects and 
 # Signatures
 
 1. Gokulnaath Govindaraj
+2. Anna Crafton
