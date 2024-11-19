@@ -1,0 +1,91 @@
+
+/*
+    viewpageStyles.css (for GeoSyncra)
+    Ceg4100
+    Gokulnaath07
+    Last Updated 11/1/2024
+
+
+*/
+
+.image-details {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items horizontally */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%; /* Set a width for centering */
+    max-width: 600px; /* Optional: Limit max width */
+    margin-left: auto; /* Center the left margin */
+    margin-right: auto; /* Center the right margin */
+}
+
+
+.image-info {
+    max-width: 100%; /* Make sure text does not exceed container */
+    text-align: center; /* Center text inside the image-info */
+}
+
+.view-image-button {
+    display: inline-block;
+    margin-top: 10px; /* Adjust margin as needed */
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.view-image-button:hover {
+    background-color: #0056b3;
+}
+
+.loaded-image {
+    width: 600px; /* Set width to 600px */
+    height: 600px; /* Set height to 600px */
+    object-fit: cover; /* Maintain aspect ratio */
+    margin-top: 10px; /* Add some space above the image */
+}
+
+.navigate-button{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #032f26;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.navigate-button:hover{
+    background-color: #023047;
+}
+
+.close-image-button {
+    display: inline-block;
+    margin-top: 10px; /* Adjust margin as needed */
+    padding: 5px 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.close-image-button:hover {
+    background-color: #ff1a1a;
+}
+
+/*Fix footer postition*/
+
+footer{
+
+    line-height:0;
+    width: 100%;
+    position:fixed;
+    bottom:0px;
+
+}
