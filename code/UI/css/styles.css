@@ -1,123 +1,165 @@
-/*
-    styles.css (for GeoSyncra)
-    General color / font / styling for all pages
-    Ceg4100
-    Anna Crafton
-    Last Updated 11/1/2024
+/* styles.css (for GeoSyncra)
+   General color / font / styling for all pages 
+   Ceg4100 
+   Anna Crafton
+   Last Updated 11/7/2024 */
 
-*/
+/* Root CSS Variables */
+:root {
+    --primary-color: #023047;
+    --secondary-color: #8ecae6;
+    --text-color: #ffffff;
+    --background-color: aliceblue;
+}
 
-
-/*Body Styling for Header*/
+/* Body Styling for Header */
 body {
-
     margin: 0px;
     padding: 0px;
-
+    font-family: 'Times New Roman', Times, serif; /* Set global font family */
 }
 
-
-/*Formating and style for header that is on every page*/
+/* Formatting and style for header that is on every page */
 header {
-
-    /*colors & font*/
-    background-color: #023047;
-    color:#ffffff; 
-    font-family:'Times New Roman', Times, serif; 
-
-    /*formating*/
-    display:table;
-    width:100%;
-    
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    display: table;
+    width: 100%;
 }
 
-/*Formating and style for header that is on every page*/
-.clock{
-
-    display:table-cell;
-    text-align:center;
-
-
+/* Formatting and style for header that is on every page */
+.clock {
+    display: table-cell;
+    text-align: center;
 }
 
-/*Formating and style for header that is on every page*/
-.title{
-    
-    display:table-cell;
-    background-color:#023047;
-    width:60%; 
-    font-size:xx-large;
+/* Formatting and style for header title */
+.title {
+    display: table-cell;
+    background-color: var(--primary-color);
+    width: 60%;
+    font-size: xx-large;
     font-stretch: expanded;
-    text-align:center;
-
-
+    text-align: center;
 }
 
-/*Formating and style for header that is on every page*/
+/* Formatting and style for navigation bar */
 .navBar {
-
-    display:table-cell;
-    text-align:center;
-
-
+    display: table-cell;
+    text-align: center;
 }
 
-
-/*Style the Background for the Section*/
+/* Style the Background for the Section */
 section {
-
     background-color: white;
     color: black;
-    font-family: 'Times New Roman', Times, serif;
-
+    
 }
 
-/*Background for login boxes + upload boxes*/
+/* Background for login boxes + upload boxes */
 fieldset {
-
-    background: #8ecae6;
+    background: var(--secondary-color);
     width: 33%;
-
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 20px; /* Padding inside the fieldset */
 }
 
-/*title at top of fiieldset boxes*/
+/* Title at top of fieldset boxes */
 legend {
-
     font-size: large;
     padding: 1em;
 }
 
 /* Style the nav bar */
 nav {
-
     list-style-type: none;
-    background-color: #023047;
-    color: white;
-    font-size:large;
-
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-size: large;
 }
 
-/*Stops the links in nav from changing color when clicked*/
+/* Stops the links in nav from changing color when clicked */
 a {
-
     color: inherit;
     text-decoration: none;
 }
 
-/*Style the main section*/
-main {
-
-    background-color: aliceblue;
-
+/* Hover effect for nav links */
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Slight background change on hover */
+    padding: 5px; /* Add some padding */
+    border-radius: 5px; /* Rounded corners */
 }
 
-/*Footer*/
-footer {
+/* Style the main section */
+main {
+    flex: 1;
+    background-color: var(--background-color);
+}
 
-    background-color:#023047;
-    color:#fff;
-    text-align:center;
-    font-size:small;
-    line-height:2;
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    font-size: small;
+    line-height: 2;
+    
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    fieldset {
+        width: 90%; /* Makes the fieldset take more width on smaller screens */
+    }
+
+    .title {
+        font-size: large; /* Adjust font size for smaller screens */
+    }
+
+    .navBar {
+        font-size: medium; /* Change nav bar font size */
+    }
+}
+
+/* Center article styling */
+.center {
+    text-align: center; /* Center-align contents of the article */
+}
+
+/* Flexbox container for search bar and button */
+.search-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 10px; /* Space between search bar and button */
+}
+
+/* Search bar styling */
+#searchBar {
+    font-size: large;
+    width: 70%; /* Adjust width as needed */
+    padding: 10px;
+    border: 2px solid #023047;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Button styling */
+.styled-button {
+    background-color: rgb(189, 162, 8);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for button */
+.styled-button:hover {
+    background-color: rgb(2, 58, 2);
 }
 
