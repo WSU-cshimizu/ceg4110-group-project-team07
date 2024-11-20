@@ -42,7 +42,7 @@
             <!--Nav Bar (links to other pages)-->
             <div class="navBar">
                 <nav> 
-                    <a href="viewpage.html"> Viewpage | &nbsp; <a href="upload.html"> Upload </ahref></a>
+                    <a href="viewpage.html"> Viewpage | &nbsp; <a href="upload.html"> Upload | &nbsp; <a href="about.html"> About </ahref></a>
                 </nav>
             </div>
     
@@ -59,35 +59,17 @@
             </div>
 
             <!---Search Bar for looking up locations-->
-            <article class = "center">
+
+            <div class="searchContainer">
 
                 <h4>Search Locations:</h4>
-                <input type="text" id="searchBar" placeholder="Search...">
-                <button onClick="searchLocation()">Search</button>
 
-            </article>
+                <article class = "center">
 
-
-
-            <div class="mainPageContainer">
-
-                <!--About Section -->
-                <article id="about" class="about">
-
-                    <h3>Title</h3>
-
-                    <p>GeoSyncra helps people connect with others by allowing them to navigate easily. Small landmarks are common but often lack a name or address. Such locations can be difficult to find using other navigation technologies. Our project will solve this problem by using an image search to provide directions to user-submitted locations. These directions can be sent to friends so people can find each other quickly.This solution offers a streamlined, interactive way to manage memories and tasks tied to physical locations, improving productivity and user experience. </p>
-
-                    <a href="https://github.com/WSU-cshimizu/ceg4110-group-project-team07/tree/main">- Click Link to Github - </a>
+                    <input type="text" id="searchBar" placeholder="Search By Location...">
+                    <button onClick="searchLocation()">Search</button>
 
                 </article>
-
-                <!--Random Image here, using a placehoder for now! [FLAG!]-->
-                <div class="photo">
-
-                    <img src="photos/dummyPhoto.jpg" alt="dummyPhoto">
-
-                </div>
 
             </div>
     
