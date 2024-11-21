@@ -1,0 +1,1 @@
+This spring part has a docker file which doesnt have the details of the correct url for the database and other properties(Environment variables). I put those in the railway when i deployed it there as environment variables.
