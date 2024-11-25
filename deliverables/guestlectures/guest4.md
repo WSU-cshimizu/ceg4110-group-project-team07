@@ -1,5 +1,5 @@
 # Guest Lecture Response
-* **Guest Lecturer:** 
+* **Guest Lecturer:** Leland Vakarian
 * **Company:** Mitre Corp
 * **Date:** 11/7/2024
 
