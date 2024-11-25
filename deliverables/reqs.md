@@ -158,7 +158,6 @@ As a Database developer, I want to be able to send and receive information from 
   - Requirement 18.2.1: The database should allow users to update their posts and profiles.
   - Requirement 18.2.2: Changes made to the database should be reflected immediately on the frontend.
 
-
 ## Tester Story 1 
 As a Tester, I want to verify that the design requirements are met through automated testing. This includes checking that the buttons and text fields work properly so that information can be provided when uploading details. Additionally, I want to ensure that API integration functions efficiently for validating the location navigation feature.
 
