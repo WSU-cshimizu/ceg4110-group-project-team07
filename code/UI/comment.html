@@ -17,10 +17,10 @@
     <link rel="stylesheet" type="text/css" href="css/commentStyles.css">
     <script src="js/script.js"></script>
     <script src="js/backend.js"></script>
+    <script src="js/commentScript.js"></script>
     <title>Comments</title>
  
 </head>
-
 
 
 <body>
@@ -52,25 +52,43 @@
         </header>
 
         
-        <!--Form for comments-->
+     <!-- Form to add a new comment -->
 
-        <form id="commentForm">
+        <div class="comment-form">
 
-            <h4>Comment: </h4>
+            <h3>Post a Comment</h3>
 
-            <input id="commentBar" type="text" placeholder="Enter Comment Here...">
-            <button type="submit">Upload</button>
-        </form>
+            <form id="commentForm">
+                <input type="text" id="commentText" name="CommentText" placeholder="Enter  your comment here..." required />
+                <button type="submit">Submit</button>
+            </form>
 
-        <!--Container for comment display-->
-        <div id="commentContainer"></div>
+        </div>
+    
+        <!-- For showing upload status (success or error) -->
+        <p id="uploadStatus"></p>
 
-        <!-- Footer -->
-        <footer>
+        <!-- Comments Section in HTML -->
+        <div class="comments-section">
+            <h2>Comments</h2>
 
-            <p>&copy; 2024 Team07</p>
+            <ul id="commentsList">
+            <!-- Comments will be dynamically loaded here -->
+            </ul>
 
-        </footer>
+        </div>
+
+     
+        <!--Like Button-->
+        <div class="likeButtonDiv">
+
+
+            <input type="button" id="numLikes" value="0 Likes" onclick="like()" />
+
+        </div>
+          
 
     </section>
+
+
 </body>
