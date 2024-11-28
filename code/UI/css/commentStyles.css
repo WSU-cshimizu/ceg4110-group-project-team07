@@ -7,7 +7,7 @@
 
 
 /*move footer to bottom of page*/
-footer{
+footer {
 
     line-height:0.5;
     width: 100%;
@@ -43,5 +43,21 @@ footer{
   border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
+
+}
+
+#numLikes{
+
+  color: white;
+  background-color:cornflowerblue;
+  border-color:dodgerblue;
+  font-size:large;
+  border-radius: 5%;
+
+}
+
+#numLikes:hover {
+
+  background-color: rgb(100, 111, 237);
 
 }
