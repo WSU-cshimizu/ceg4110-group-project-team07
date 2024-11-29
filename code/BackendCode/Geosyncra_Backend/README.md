@@ -1,1 +1,2 @@
 there is a server mentioned in the image controller change that accordig to the frontend if the live server has some other port use that
+currently the website is live and the deployment is done in railway using github repo which is a different one. the environment variables are mentioned there
