@@ -14,15 +14,8 @@ public class ImageDto {
         this.name = name;
         this.location = location;
         this.description = description;
-//        this.imageData = imageData;
     }
-//    public byte[] getImageData() {
-//        return imageData;
-//    }
 
-//    public Integer getId() {
-//        return id;
-//    }
 
     public Integer getId() {
         return id;
