@@ -5,10 +5,10 @@ We will concentrate on a few essential elements of testing:
   - Integration Testing: To guarantee that the various components of our system (frontend, backend, and API) operate properly together.
   - Functional Testing: To ensure that the system performs as expected for the user.
   - End-to-End Testing: To recreate real-world scenarios and guarantee that everything runs properly from beginning to end.
-  - API Testing: Ensuring that the API processes requests successfully and provides the intended results.
 
 # Testing Framework: 
-   - We use the BDD (Behavior Driven Development) framework alongside with Cucumber for automation. 
+   - We use the BDD (Behavior Driven Development) framework alongside with Cucumber for automation.
+   - We use IntelliJ for testing services, leveraging mock testing techniques for unit testing.
    - This framework allows us to write tests in plain English, which the entire team can comprehend. 
    - It fits wonderfully with our development strategy because it keeps developers, testers, and even 
    non-technical stakeholders on the same page.
