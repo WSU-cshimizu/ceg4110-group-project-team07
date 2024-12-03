@@ -3,61 +3,14 @@
   CSS for layout of index page (comment page for GeoSyncra website)
   ceg411
   Anna Crafton
-  last updated 11/27/2024*/
+  last updated 11/19/2024*/
 
 
 /*move footer to bottom of page*/
-footer {
+footer{
 
-    line-height:0.5;
+    line-height:0.1;
     width: 100%;
     position: fixed;
     bottom:0px;
-}
-
-
-/*styling for comment form*/
-#commentForm {
-
-  background-color:seagreen;   
-  width: 70%;
-  padding:3%;
-  box-sizing:border-box;
-  border-radius:15px;
-  line-height:2.0;
-  margin-left:5%;
-  margin-top:5%;
-  float:left;
-
-  font-size:x-large;
-  color:white;
-  text-align:left;
-}
-
-#commentBar {
-
-  font-size: large;
-  width: 70%; /* Adjust width as needed */
-  padding: 10px;
-  border: 2px solid #023047;
-  border-radius: 15px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-
-
-}
-
-#numLikes{
-
-  color: white;
-  background-color:cornflowerblue;
-  border-color:dodgerblue;
-  font-size:large;
-  border-radius: 5%;
-
-}
-
-#numLikes:hover {
-
-  background-color: rgb(100, 111, 237);
-
 }

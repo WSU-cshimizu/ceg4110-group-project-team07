@@ -1,76 +1,43 @@
-/* Gokulnaath07 Backend Code
-   Last Updated 10/31/2024
-*/
-
-/* 
-   script.js (JavaScript for GeoSyncra website)
-   ceg411
-   Anna Crafton
-   Last updated 10/24/2024
-*/
-
-// Function to search for locations
-function searchLocation() {
-    const location = document.getElementById('searchBar').value.toLowerCase();
-    if (location) {
-        // Redirect to viewImage.html with the location as a query parameter
-        window.location.href = `viewImage.html?location=${encodeURIComponent(location)}`;
-    } else {
-        alert("Please enter a location to search.");
-    }
-}
-
-// Function to get query parameters from the URL
-function getQueryParams(param) {
-    const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get(param);
-}
 let currentPage = 0;
 const pageSize = 3; // Number of items per page
 
 function fetchImageDetails() {
-    const location = getQueryParams('location');
-    if (location) {
-        const apiUrl = `https://insightful-generosity-production.up.railway.app/location/${location}?page=${currentPage}&size=${pageSize}`;
-        console.log(`Fetching from URL: ${apiUrl}`);
+    const apiUrl = `https://insightful-generosity-production.up.railway.app/images?page=${currentPage}&size=${pageSize}`;
+    console.log(`Fetching from URL: ${apiUrl}`);
 
-        fetch(apiUrl)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Images not found');
-                }
-                return response.json();
-            })
-            .then(data => {
-                console.log(`Fetched data for page ${currentPage}:`, data);
+    fetch(apiUrl)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Images not found');
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log(`Fetched data for page ${currentPage}:`, data);
 
-                const article = document.querySelector('article');
-                const images = data.content;
-                const totalPages = data.totalPages;
+            const article = document.querySelector('article');
+            const images = data.content;
+            const totalPages = data.totalPages;
 
-                // Clear existing images without clearing entire article
-                const imageElements = article.querySelectorAll('.image-details');
-                imageElements.forEach(imageElement => imageElement.remove());
+            // Clear existing images without clearing the entire article
+            const imageElements = article.querySelectorAll('.image-details');
+            imageElements.forEach(imageElement => imageElement.remove());
 
-                // If there are images, render them
-                if (images && images.length > 0) {
-                    images.forEach(image => renderImageDetails(image, article));
-                } else {
-                    console.log("No images found for this page.");
-                }
+            // If there are images, render them
+            if (images && images.length > 0) {
+                images.forEach(image => renderImageDetails(image, article));
+            } else {
+                console.log("No images found for this page.");
+            }
 
-                // Update pagination controls
-                updatePageControls(totalPages);
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                alert(error.message);
-            });
-    } else {
-        console.log('No location provided!');
-    }
+            // Update pagination controls
+            updatePageControls(totalPages);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert(error.message);
+        });
 }
-
 function renderImageDetails(image, article) {
     const imageElement = document.createElement('div');
     imageElement.className = 'image-details';
@@ -180,18 +147,6 @@ function renderImageDetails(image, article) {
         });
     }
 
-    if (navigateButton) {
-        navigateButton.addEventListener('click', () => {
-            fetchGeoLocation(image.id); // Navigate using the fetched location
-        });
-    }
-    if (commentButton) {
-        commentButton.addEventListener('click', () => {
-            // Redirect to the comment.html page with the imageId as a query parameter
-            const imageId = commentButton.dataset.id;
-            window.location.href = `comment.html?imageId=${imageId}`;
-        });
-    }
     if (likeButton) {
         likeButton.addEventListener('click', () => {
             // Get the current like count from the button's data attribute
@@ -224,8 +179,21 @@ function renderImageDetails(image, article) {
             });
         });
     }
+    
+    
+    if(commentButton){
+        commentButton.addEventListener('click', () => {
+            // Redirect to the comment.html page with the imageId as a query parameter
+            const imageId = commentButton.dataset.id;
+            window.location.href = `comment.html?imageId=${imageId}`;
+        });
+    }
+    if (navigateButton) {
+        navigateButton.addEventListener('click', () => {
+            fetchGeoLocation(image.id); // Navigate using the fetched location
+        });
+    }
 }
-
 function updatePageControls(totalPages) {
     const pageControls = document.getElementById('pageControls');
     pageControls.innerHTML = `
@@ -236,17 +204,12 @@ function updatePageControls(totalPages) {
     console.log(`Page controls updated: Page ${currentPage + 1} of ${totalPages}`);
 }
 
-// Function to change the page
 function changePage(direction) {
-    console.log(`Changing page by ${direction}. Current page: ${currentPage}`); // Log page change
-    currentPage += direction; // Update currentPage
-    fetchImageDetails(); // Fetch details for the new page
+    currentPage += direction;
+    fetchImageDetails();
 }
 
-window.onload = function() {
-    console.log('Fetching image details...');
-    fetchImageDetails(); // Fetch the initial page's images
-};
+window.onload = fetchImageDetails;
 
 function fetchImagesByParentId(parentId, imageGallery, closeGalleryButton) {
     fetch(`https://insightful-generosity-production.up.railway.app/${parentId}/child`)
@@ -254,7 +217,7 @@ function fetchImagesByParentId(parentId, imageGallery, closeGalleryButton) {
             if (!response.ok) {
                 throw new Error('Failed to fetch image data');
             }
-            return response.json(); // Expecting a list of images
+            return response.json();
         })
         .then(images => {
             imageGallery.innerHTML = ''; // Clear previous images
@@ -277,23 +240,22 @@ function fetchImagesByParentId(parentId, imageGallery, closeGalleryButton) {
         });
 }
 
-
-// Function to fetch geolocation by image ID and navigate to Google Maps
 function fetchGeoLocation(imageId) {
     fetch(`https://insightful-generosity-production.up.railway.app/images/${imageId}/geoLocation`)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Geolocation not found');
             }
-            return response.text(); // Assuming the server returns the geolocation as plain text
+            return response.text();
         })
         .then(geoLocation => {
-            const [latitude, longitude] = geoLocation.split(','); // Split lat,long
-            const mapUrl = `http://www.google.com/maps?q=${latitude},${longitude}`; 
-            window.open(mapUrl, '_blank'); // Open in a new tab
+            const [latitude, longitude] = geoLocation.split(',');
+            const mapUrl = `http://www.google.com/maps?q=${latitude},${longitude}`;
+            window.open(mapUrl, '_blank');
         })
         .catch(error => {
             console.error('Error loading geolocation:', error);
             alert(error.message);
         });
 }
+

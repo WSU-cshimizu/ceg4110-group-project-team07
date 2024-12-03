@@ -1,16 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <!--
-    comment.html (coment page for GeoSyncra website)
+    comment.html (comment page for GeoSyncra website)
     ceg411
     Anna Crafton
-    last updated 11/27/2024
+    last updated 11/19/2024
 -->
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
@@ -19,76 +17,60 @@
     <script src="js/backend.js"></script>
     <script src="js/commentScript.js"></script>
     <title>Comments</title>
- 
 </head>
-
 
 <body>
 
     <section>
-
-
-        <!--Fancy looking header goes here-->
+        <!-- Fancy looking header goes here -->
         <header>
-
-            <!--Clock-->
+            <!-- Clock -->
             <div class="clock">
                 <span id="clock">The time will go here</span>  
             </div>
 
-            <!--GeoSyncra Title / Header text-->
+            <!-- GeoSyncra Title / Header text -->
             <div class="title">
                 <h3>GeoSyncra</h3>
             </div>
             
-
-            <!--Nav Bar (links to other pages)-->
+            <!-- Nav Bar (links to other pages) -->
             <div class="navBar">
                 <nav> 
-                    <a href="viewpage.html"> Viewpage | &nbsp; <a href="upload.html"> Upload | &nbsp; <a href="about.html"> About | &nbsp; <a href="comment.html"> Comment </a></ahref></a>
+                    <a href="randomImages.html"> Viewpage &nbsp;</a>
+                    <a href="upload.html">Upload &nbsp;</a>
+                    <a href="about.html">About</a>
                 </nav>
             </div>
-    
         </header>
 
-        
-     <!-- Form to add a new comment -->
-
+        <!-- Form to add a new comment -->
         <div class="comment-form">
-
             <h3>Post a Comment</h3>
-
             <form id="commentForm">
                 <input type="text" id="commentText" name="CommentText" placeholder="Enter  your comment here..." required />
                 <button type="submit">Submit</button>
             </form>
-
         </div>
-    
-        <!-- For showing upload status (success or error) -->
-        <p id="uploadStatus"></p>
+        <p id="uploadStatus"></p> <!-- For showing upload status (success or error) -->
 
+        
+    </div>
         <!-- Comments Section in HTML -->
         <div class="comments-section">
             <h2>Comments</h2>
-
             <ul id="commentsList">
-            <!-- Comments will be dynamically loaded here -->
+                <!-- Comments will be dynamically loaded here -->
             </ul>
-
-        </div>
-
-     
-        <!--Like Button-->
-        <div class="likeButtonDiv">
-
-
-            <input type="button" id="numLikes" value="0 Likes" onclick="like()" />
-
-        </div>
-          
+            
+            
 
     </section>
+    <footer>
 
+        <p>&copy; 2024 Team07</p>
 
+    </footer>
 </body>
+
+</html>
