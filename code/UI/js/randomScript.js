@@ -92,7 +92,7 @@ function renderImageDetails(image, article) {
             // Check if the form already exists
             const existingForm = document.getElementById('uploadForm');
             if (existingForm) {
-                // If the form exists, remove it (close the form)
+                // If the form exists, close it
                 existingForm.remove();
             } else {
                 // If the form does not exist, create a new one
@@ -149,18 +149,17 @@ function renderImageDetails(image, article) {
 
     if (likeButton) {
         likeButton.addEventListener('click', () => {
-            // Get the current like count from the button's data attribute
-            let str = likeButton.dataset.likeCount || "0 Likes"; // Default to "0 Likes" if not present
-            let numLikes = parseInt(str.split(' ')[0]); // Extract the number from the string and convert to number
+
+            let str = likeButton.dataset.likeCount || "0 Likes";
+            let numLikes = parseInt(str.split(' ')[0]);
             
-            // Increment the like count
+
             numLikes++;
     
-            // Update the like count in the dataset and button text
+
             likeButton.dataset.likeCount = numLikes;
-            likeButton.textContent = `${numLikes} Likes`; // Update button text
+            likeButton.textContent = `${numLikes} Likes`;
     
-            // Send the updated like count to the backend
             fetch(`https://insightful-generosity-production.up.railway.app/${image.id}/like?like=${numLikes}`, {
                 method: 'PUT',
             })
