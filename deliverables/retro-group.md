@@ -16,9 +16,11 @@
 * Assignment templates and grades could have been uploaded quicker. 
 
 ### Further Comments
-*
+* not applicable 
 
 # Signatures
 Jenessa Sparks
+
 Gokulnaath Govindaraj
+
 Anna Crafton 
