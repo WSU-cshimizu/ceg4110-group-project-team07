@@ -1,0 +1,17 @@
+Feature: GeoSyncra homepage functionality
+
+  Scenario: Verify navigation links exist
+    Given I am on the GeoSyncra homepage
+    Then I should see a navigation link for "Home"
+    And I should see a navigation link for "Login"
+    And I should see a navigation link for "Upload Image"
+
+  Scenario: Verify the search bar is functional
+    Given I am on the GeoSyncra homepage
+    When I enter "New York" into the search bar
+    And I click the "Search" button
+    Then I should see results for "New York"
+
+  Scenario: Verify clock placeholder text
+    Given I am on the GeoSyncra homepage
+    Then I should see the text "The time will go here" in the clock area

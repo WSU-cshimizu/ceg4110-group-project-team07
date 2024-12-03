@@ -1,0 +1,67 @@
+package StepDefinations;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import io.cucumber.java.en.*;
+
+public class uploadimage {
+	WebDriver driver;
+	
+	@SuppressWarnings("deprecation")
+	@Given("browser_is_open")
+    public void browser_is_open() {
+        System.out.println("Inside Step - browser is open");
+
+        String projectPath = System.getProperty("user.dir"); // Corrected "use.dir" to "user.dir"
+        System.out.println("Project path is: " + projectPath);
+
+        // Corrected System property setting
+        System.setProperty("webdriver.gecko.driver", projectPath + "/src/test/resources/drivers/geckodriver");
+
+        driver = new FirefoxDriver();
+        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
+    }
+	@Given("user is on the upload page")
+	public void user_is_on_the_upload_page() {
+		if (driver == null) {
+            System.out.println("Driver is not initialized. Please check your setup.");
+            return; // Prevents further execution to avoid NullPointerException
+        }
+        driver.navigate().to("https://geosyncraa.netlify.app/upload");
+	}
+
+	@When("user enters {string}, {string}, and {string}")
+	public void user_enters_and(String name, String description, String location) {
+		driver.findElement(By.id("name")).sendKeys(name);
+        driver.findElement(By.id("description")).sendKeys(description);
+        driver.findElement(By.id("location")).sendKeys(location);
+		
+		
+	}
+
+	@When("user selects an image file {string}")
+	public void user_selects_an_image_file(String string) {
+	}
+
+	@When("user clicks on upload")
+	public void user_clicks_on_upload() {
+	}
+
+	@Then("a success message is displayed")
+	public void a_success_message_is_displayed() {
+	}
+
+	@Then("the uploaded image and details are visible in the list")
+	public void the_uploaded_image_and_details_are_visible_in_the_list() {
+	    
+	}
+
+
+
+
+}

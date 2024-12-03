@@ -1,0 +1,69 @@
+package StepDefinations;
+
+import io.cucumber.java.en.*;
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import java.util.List;
+
+public class About{
+    WebDriver driver;
+
+    @Given("I am on the About page")
+    public void iAmOnTheAboutPage() {
+    	System.setProperty("webdriver.gecko.driver", "/Users/prabeshbhattarai/Downloads/eclipse/CucumberJava/src/test/resources/drivers/geckodriver");
+    	driver = new FirefoxDriver();
+        driver.get("https://geosyncra.netlify.app/about");
+    }
+
+    @Then("I should see the title {string}")
+    public void iShouldSeeTheTitle(String title) {
+        WebElement titleElement = driver.findElement(By.cssSelector(".title h3"));
+        Assert.assertEquals(title, titleElement.getText());
+    }
+
+    @Then("I should see the {string} section with its content")
+    public void iShouldSeeTheSectionWithItsContent(String section) {
+        WebElement aboutSection = driver.findElement(By.id("about"));
+        Assert.assertTrue(aboutSection.getText().contains("GeoSyncra helps people connect with others"));
+    }
+
+    @Then("I should see a navigation bar with links to other pages")
+    public void iShouldSeeANavigationBarWithLinksToOtherPages() {
+        List<WebElement> links = driver.findElements(By.cssSelector(".navBar nav a"));
+        Assert.assertEquals(3, links.size());
+        Assert.assertTrue(links.stream().anyMatch(link -> link.getText().contains("Viewpage")));
+        Assert.assertTrue(links.stream().anyMatch(link -> link.getText().contains("Upload")));
+        Assert.assertTrue(links.stream().anyMatch(link -> link.getText().contains("Home")));
+    }
+
+    @Then("the clock should display the current time")
+    public void theClockShouldDisplayTheCurrentTime() {
+        WebElement clock = driver.findElement(By.id("clock"));
+        String clockText = clock.getText();
+        Assert.assertNotEquals("The time will go here", clockText); // Ensure the time is updated
+    }
+
+    @Then("I should see a placeholder image")
+    public void iShouldSeeAPlaceholderImage() {
+        WebElement image = driver.findElement(By.cssSelector(".photo img"));
+        String src = image.getAttribute("src");
+        Assert.assertTrue(src.contains("dummyPhoto.jpg"));
+    }
+
+    @When("I click on the {string} link")
+    public void iClickOnTheLink(String linkText) {
+        WebElement link = driver.findElement(By.linkText(linkText));
+        link.click();
+    }
+
+    @Then("I should be redirected to the {string} page")
+    public void iShouldBeRedirectedToThePage(String page) {
+        String currentUrl = driver.getCurrentUrl();
+        Assert.assertTrue(currentUrl.contains(page));
+    }
+}

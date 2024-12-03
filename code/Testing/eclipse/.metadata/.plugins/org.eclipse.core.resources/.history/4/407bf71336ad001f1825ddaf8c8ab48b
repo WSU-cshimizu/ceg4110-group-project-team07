@@ -1,0 +1,9 @@
+Feature: View Image Details
+  As a user
+  I want to view uploaded images with details
+  So that I can browse and verify the uploaded content
+
+  Scenario: Successfully view image details
+    Given I am on the view images page
+    When The image details are loaded
+    Then I should see a list of images with details

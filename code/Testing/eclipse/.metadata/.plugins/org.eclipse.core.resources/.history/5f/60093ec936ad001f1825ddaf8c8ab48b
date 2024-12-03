@@ -1,0 +1,62 @@
+package StepDefinations;
+
+import io.cucumber.java.After;
+import io.cucumber.java.en.*;
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class viewimage {
+
+    WebDriver driver;
+
+    @Given("I am on the Index page")
+    public void iAmOnTheIndexPage() {
+    	System.setProperty("webdriver.gecko.driver", "/Users/prabeshbhattarai/Downloads/eclipse/CucumberJava/src/test/resources/drivers/geckodriver");
+    	driver = new FirefoxDriver();
+        driver.get("https://geosyncra.netlify.app/"); 
+    }
+
+    @When("I click on the {string} link")
+    public void iClickOnTheLink(String linkText) {
+        WebElement link = driver.findElement(By.linkText(linkText));
+        link.click();
+    }
+
+    @Then("I should be redirected to the Viewpage")
+    public void iShouldBeRedirectedToTheViewpage() {
+        // Verify the page title or URL to confirm redirection
+        String expectedTitle = "Viewpage";
+        Assert.assertEquals("The user is not on the Viewpage!", expectedTitle, driver.getTitle());
+    }
+
+    @When("I click on a {string} button or link")
+    public void iClickOnAButtonOrLink(String buttonText) {
+        // Assuming the "View Image" button/link has the text "View Image"
+        WebElement viewImageButton = driver.findElement(By.xpath("//button[text()='" + buttonText + "']"));
+        viewImageButton.click();
+    }
+
+    @Then("the image should be displayed in the image container")
+    public void theImageShouldBeDisplayedInTheImageContainer() {
+        // Assuming image is displayed in an element with ID "imageContainer"
+        WebElement imageContainer = driver.findElement(By.id("imageContainer"));
+        WebElement displayedImage = imageContainer.findElement(By.tagName("img"));
+
+        Assert.assertNotNull("Image is not displayed!", displayedImage);
+        Assert.assertTrue(
+            "Image source is missing or incorrect!",
+            displayedImage.getAttribute("src").contains("expectedImage.jpg") // Replace with an expected file or pattern
+        );
+    }
+
+    @After
+    public void tearDown() {
+        if (driver != null) {
+            driver.quit();
+        }
+    }
+}

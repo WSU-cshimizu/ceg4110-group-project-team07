@@ -1,0 +1,8 @@
+Feature: Navigation and Image Viewing
+
+  Scenario: Navigate from Index page to Viewpage and display an image
+    Given I am on the Index page
+    When I click on the "Viewpage" link
+    Then I should be redirected to the Viewpage
+    When I click on a "View Image" button or link
+    Then the image should be displayed in the image container

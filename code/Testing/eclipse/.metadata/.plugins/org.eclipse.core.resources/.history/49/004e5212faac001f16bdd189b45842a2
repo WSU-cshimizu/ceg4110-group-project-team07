@@ -1,0 +1,45 @@
+   
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import io.cucumber.java.en.*;
+import java.util.List;
+
+import static org.junit.Assert.*;
+
+public class viewimage {
+    WebDriver driver;
+@Given("I am on the view images page")
+    public void i_am_on_the_view_images_page() {
+        System.setProperty("webdriver.gecko.driver", "path/to/geckodriver");
+        driver = new FirefoxDriver();
+        driver.get("https://geosyncraa.netlify.app/randomimages"); 
+    }
+
+    @When("The image details are loaded")
+    public void the_image_details_are_loaded() {
+        // Wait until the imageContainer is populated
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("imageContainer")));
+    }
+
+    @Then("I should see a list of images with details")
+    public void i_should_see_a_list_of_images_with_details() {
+        WebElement imageContainer = driver.findElement(By.id("imageContainer"));
+        List<WebElement> images = imageContainer.findElements(By.tagName("img"));
+        
+        // Check if images are present
+        assertTrue("No images found", images.size() > 0);
+
+        // Validate details for each image
+        for (WebElement img : images) {
+            assertNotNull("Image source is missing", img.getAttribute("src"));
+            WebElement parent = img.findElement(By.xpath(".."));
+            assertNotNull("Image description is missing", parent.findElement(By.tagName("p")));
+        }
+        driver.quit();
+    }
+}

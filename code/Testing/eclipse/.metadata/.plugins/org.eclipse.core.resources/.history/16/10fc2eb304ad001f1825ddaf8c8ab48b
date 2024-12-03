@@ -1,0 +1,53 @@
+package StepDefinations;
+
+import io.cucumber.java.en.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
+import static org.junit.Assert.*;
+
+public class index {
+
+    WebDriver driver;
+    WebDriverWait wait;
+
+    @Given("I open the GeoSyncra homepage")
+    public void i_open_the_geosyncra_homepage() {
+        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
+        driver = new ChromeDriver();
+        WebDriverWait wait = new WebDriverWait(driver, java.time.Duration.ofSeconds(10));
+        driver.get("http://localhost:8080"); // Update with your local HTML URL
+    }
+
+    @Then("I should see a navigation link with text {string}")
+    public void i_should_see_a_navigation_link_with_text(String linkText) {
+        WebElement link = driver.findElement(By.linkText(linkText));
+        assertNotNull("Navigation link not found: " + linkText, link);
+    }
+
+    @When("I enter {string} into the search bar")
+    public void i_enter_into_the_search_bar(String text) {
+        WebElement searchBar = driver.findElement(By.id("searchBar"));
+        searchBar.sendKeys(text);
+    }
+
+    @When("I click the {string} button")
+    public void i_click_the_button(String buttonText) {
+        WebElement button = driver.findElement(By.xpath("//button[text()='" + buttonText + "']"));
+        button.click();
+    }
+
+    @Then("I should see results for {string}")
+    public void i_should_see_results_for(String resultText) {
+        WebElement result = driver.findElement(By.xpath("//*[contains(text(), '" + resultText + "')]"));
+        assertTrue("Result not found for: " + resultText, result.isDisplayed());
+    }
+
+    @Then("I should see {string} in the clock area")
+    public void i_should_see_in_the_clock_area(String expectedText) {
+        WebElement clock = driver.findElement(By.id("clock"));
+        assertEquals("Clock text mismatch", expectedText, clock.getText());
+    }
+}
